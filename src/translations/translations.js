@@ -667,8 +667,10 @@ export const translations = {
             ]
         },
         tech_ecosystem: {
-            title: "EU–NATO BIZTOS STRATÉGIAI TECH ÖKOSZISZTÉMA",
-            subtitle: "5 000 hektár digitális szuverenitás. Kizárólag biztonságos, szövetséges partnerekkel.",
+            header: {
+                title: "EU–NATO BIZTOS STRATÉGIAI TECH ÖKOSZISZTÉMA",
+                subtitle: "A tech óriásoknak hatalmas mennyiségű zöld energiára van szükségük az AI futtatásához. Mi a szemétből gyártjuk ezt nekik (Gold from Trash), ők pedig cserébe idehozzák a jövőt. 5 000 hektár digitális szuverenitás.",
+            },
             policy: {
                 location: {
                     title: "Helyszín & Feltételek",
@@ -1494,8 +1496,10 @@ export const translations = {
             ]
         },
         tech_ecosystem: {
-            title: "EU–NATO SECURE STRATEGIC TECH ECOSYSTEM",
-            subtitle: "5,000 hectares of digital sovereignty. Exclusively with secure, allied partners.",
+            header: {
+                title: "EU–NATO SECURE STRATEGIC TECH ECOSYSTEM",
+                subtitle: "Tech giants need massive amounts of green energy to run AI. We produce it for them from waste (Gold from Trash), and in return, they bring the future here. 5,000 hectares of digital sovereignty.",
+            },
             policy: {
                 location: {
                     title: "Location & Conditions",
