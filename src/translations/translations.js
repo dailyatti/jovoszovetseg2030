@@ -275,20 +275,20 @@ export const translations = {
                     }
                 },
                 patriot: {
-                    title: "Patrióta Gazdaság: Gazdagok & Multik Helye",
-                    summary: "Nem üldözzük a gazdagokat és a multikat, hanem érdekeltté tesszük őket a maradásban. De a magyar gazda az első.",
+                    title: "Patrióta Gazdaság: Erős Magyarok, Szabályozott Multik",
+                    summary: "A külföldi tőke jöhet, de új játékszabályok vannak. Vége a kiszolgáltatottságnak és az extraprofit talicskázásának. Magyarország a magyaroké.",
                     box1: {
-                        title: "🏙️ Multik & Gazdagok: Maradjanak!",
-                        desc: "Az államnak <strong>nem célja büntetni a gazdagokat</strong>. Ha valaki munkát ad és jól fizet, azt támogatjuk. Nem akarjuk elüldözni a multikat (Audi, Mercedes), hanem jobb feltételeket adunk nekik, hogy itt fejlesszenek."
+                        title: "🏙️ Kőkemény Feltételek a Multiknak",
+                        desc: "Nincs többé gyarmati sors és hajlongás a globális óriások előtt. A multik (pl. autógyárak) csak úgy kaphatnak állami támogatást, ha <strong>brutális hozzáadott értéket</strong> hoznak: K+F központokat, AI fejlesztést és robotikát telepítenek ide. Aki itthon akar hatalmas hasznot húzni, az fizetni is fog a magyaroknak – tudásban és tisztességes bérekben. Aki 'rabszolgamunkára' vágyik, annak repülnie kell a magyar piacról!"
                     },
                     box2: {
-                        title: "🇭🇺 Magyar Gazda & Vállalkozó Mindenek Felett",
-                        desc: "Van egy vastag piros vonal: <strong>A magyar vállalkozó és gazda mindig, minden körülmények között előnyt élvez.</strong>",
+                        title: "🇭🇺 Magyar Vállalkozó & Magyar Gazda Mindenek Felett!",
+                        desc: "Egy vastag, áttörhetetlen piros vonalat húzunk: <strong>A magyar vállalkozó, a magyar dolgozó és a magyar gazda mindig, minden körülmények között abszolút prioritást élvez saját hazájában!</strong>",
                         list: [
-                            "<strong>Támogatási Előny:</strong> Ha egy multi kap 1 Ft támogatást, a magyarnak 2 Ft jár. A magyar föld a magyar gazdáé.",
-                            "<strong>Piacvédelem:</strong> A közbeszerzéseknél és állami megrendeléseknél a magyar cégek abszolút prioritást élveznek."
+                            "<strong>Nemzeti Támogatási Előny:</strong> Felháborító, ha a multi kapja a mi adónkból a milliárdokat! Fordítunk a kockán: ha egy multi kap 1 Ft támogatást, a magyar vállalkozás minimum 2 Ft-ot kap. A magyar föld pedig kizárólag a magyar gazdáé marad.",
+                            "<strong>Piacvédelmi Védőpajzs:</strong> A közbeszerzéseknél, állami megrendeléseknél a bejegyzett, adózó magyar cégek abszolút elsőbbséget élveznek. A külföldi csak másodhegedűs lehet."
                         ],
-                        footer: "Minőségi kontroll: Odafigyelünk, hogy a magánszolgáltatók (pl. magánkórházak) ne éljenek vissza a helyzettel. Nincs túlárazás, nincs átverés."
+                        footer: "Szigorú számonkérés: A nemzeti érdekvédelem nem jelenthet itthoni mutyizást. Csak azt a hazai céget emeljük fel, aki tisztességes minőséget és munkát tesz le az asztalra. Kóklereknek nincs kegyelem."
                     }
                 },
                 revenue_growth: {
@@ -590,9 +590,11 @@ export const translations = {
                     title: "Átvétel & Átvilágítás",
                     items: [
                         { title: "Kormányzati Audit (30-60 nap)", desc: "A kormány teljes átvizsgálása és átvétele a zökkenőmentes működés érdekében. Ebben az időszakban nem módosítunk semmit, csak átvesszük a rendszereket a régi kormánytól a biztonságos átállás érdekében." },
-                        { title: "Tárgyalás a tech cégekkel", desc: "Megkezdjük az egyeztetéseket a globális tech óriásokkal az 5000 hektáros adómentes zónák, szerverparkok és a magyar fejlesztésű AI integrációk kapcsán." },
+                        { title: "Mesterséges Intelligencia Rendszer Aktiválása", desc: "Az állami AI modellt (AI Kormányzati Asszisztens) működésbe helyezzük az első év végéig. <strong>FONTOS: Az AI kizárólag figyel, elemez és javasol.</strong> Önálló döntéseket NEM hozhat, az irányítás és a végső döntés mindig az emberek kezében marad." },
                         { title: "Katonaság átképzésének megkezdése", desc: "A honvédség modernizációjával párhuzamosan elindul a személyi állomány speciális átképzése a legújabb technológiák és védelmi rendszerek kezelésére." },
-                        { title: "Állami AI rendszer tervezésének megkezdése", desc: "Elkezdődik a nemzeti mesterséges intelligencia rendszer alapjainak lefektetése, amely később az államigazgatás hatékonyságát fogja biztosítani." }
+                        { title: "Tárgyalás a tech cégekkel", desc: "Megkezdjük az egyeztetéseket a globális tech óriásokkal az 5000 hektáros adómentes zónák, szerverparkok és a magyar fejlesztésű AI integrációk kapcsán." },
+                        { title: "65+ Évesek Kötelező TB-jének Eltörlése", desc: "Azonnali segítségnyújtás az első év végén: minden 65 év feletti honfitársunk számára eltöröljük a kötelező egészségbiztosítási járulékot (TB), miközben a teljes körű ingyenes ellátás megmarad." },
+                        { title: "Földkincsek, Erőforrások Feltárása", desc: "Azonnal megkezdjük Magyarország stratégiai föld alatti erőforrásainak (geotermikus energia kútjai, ritkaföldfémek) és ásványkincseinek feltárását és állami kitermelését." }
                     ]
                 },
                 {
@@ -922,13 +924,13 @@ export const translations = {
         },
         eldercare: {
             header: {
-                title: "IDŐSGONDOZÁS & TB REFORM",
-                subtitle: "Az idősek megteremtették az országot. Ideje visszaadni nekik. Kötelező TB elengedése, méltó gondoskodás, és nyugodt öregkor."
+                title: "TISZTELET AZ IDŐSEKNEK: TB REFORM ÉS GONDOSKODÁS",
+                subtitle: "Ők építették fel azt az országot, amiben ma élünk. Tartozunk nekik annyival, hogy öregkorukban ne a túlélésért kelljen küzdeniük. Valódi tisztelet, anyagi biztonság és méltó idősgondozás – ez nem ígéret, hanem erkölcsi kötelességünk."
             },
             banner: {
-                badge: "AZ IDŐSEK A MI HŐSEINK",
-                title: "65 Év Felett: Kötelező TB Elengedése",
-                desc: "A kormányzás <strong>első évének végén</strong> elengedjük a <strong>65 év felettiek kötelező TB-jét</strong>. Nem kell többé fizetni azért, ami jár. Az egészségügyi ellátás számukra <strong>alanyi jogon, ingyenesen</strong> biztosított. A hosszú távú cél: <strong>mindenkinek elengedni a kötelező TB-t</strong>."
+                badge: "TISZTELET ÉS MEGBECSÜLÉS",
+                title: "65 Év Felett: Azonnali TB Elengedés",
+                desc: "Egy életen át adóztak és dolgoztak. Elfogadhatatlan, hogy nyugdíjasként még mindig vonják tőlük a sápot. <strong>A kormányzásunk legelső évének végén azonnal eltöröljük a 65 év felettiek kötelező TB-jét!</strong> Nem kell többé fizetni az orvosi ellátásért – az egészségügy számukra <strong>alanyi jogon, 100%-osan ingyenesen</strong> jár. Ez a minimum, amit adhatunk."
             },
             points: {
                 tb_abolish: {
@@ -1348,20 +1350,20 @@ export const translations = {
                     }
                 },
                 patriot: {
-                    title: "Patriot Economy: Place for Rich & Multinationals",
-                    summary: "We don't persecute the rich and multinationals, but make them interested in staying. But the Hungarian farmer comes first.",
+                    title: "Patriot Economy: Strong Hungarians, Regulated Multinationals",
+                    summary: "Foreign capital is welcome, but there are new rules. The era of vulnerability and dumping extra profits is over. Hungary belongs to Hungarians.",
                     box1: {
-                        title: "🏙️ Multinationals & Rich: Stay!",
-                        desc: "The state's goal is <strong>not to punish the rich</strong>. If someone provides jobs and pays well, we support that. We don't want to drive away multinationals (Audi, Mercedes), but give them better conditions to develop here."
+                        title: "🏙️ Strict Conditions for Multinationals",
+                        desc: "No more bowing to global giants. Multinationals (e.g., car factories) can only receive state support if they bring <strong>brutal added value</strong>: they must install R&D centers, AI development, and robotics here. If you want to make huge profits here, you will pay Hungarians – in knowledge and fair wages. Those looking for 'slave labor' will be kicked out of the Hungarian market!"
                     },
                     box2: {
-                        title: "🇭🇺 Hungarian Farmer & Entrepreneur Above All",
-                        desc: "There is a thick red line: <strong>The Hungarian entrepreneur and farmer always, under all circumstances, enjoys priority.</strong>",
+                        title: "🇭🇺 Hungarian Entrepreneur & Farmer Above All!",
+                        desc: "We draw a thick, impenetrable red line: <strong>The Hungarian entrepreneur, the Hungarian worker, and the Hungarian farmer always enjoy absolute priority in their own country under all circumstances!</strong>",
                         list: [
-                            "<strong>Support Advantage:</strong> If a multinational gets 1 HUF support, the Hungarian gets 2 HUF. Hungarian land belongs to the Hungarian farmer.",
-                            "<strong>Market Protection:</strong> For public procurement and state orders, Hungarian companies enjoy absolute priority."
+                            "<strong>National Support Advantage:</strong> It is outrageous when multinationals take billions from our taxes! We flip the script: if a multinational gets 1 HUF support, the Hungarian business gets at least 2 HUF. And Hungarian land belongs exclusively to the Hungarian farmer.",
+                            "<strong>Market Protective Shield:</strong> For public procurement and state orders, registered, tax-paying Hungarian companies enjoy absolute priority. Foreigners can only play second fiddle."
                         ],
-                        footer: "Quality control: We pay attention so private providers (e.g. private hospitals) don't abuse the situation. No overpricing, no scams."
+                        footer: "Strict accountability: Defending national interests does not mean tolerating domestic corruption. We only elevate domestic companies that deliver decent quality and hard work. No mercy for scammers."
                     }
                 },
                 revenue_growth: {
@@ -1663,9 +1665,11 @@ export const translations = {
                     title: "Takeover & Audit",
                     items: [
                         { title: "Government Audit (30-60 days)", desc: "Complete government review and takeover for smooth operation. No changes during this period, just taking over systems for safe transition." },
-                        { title: "Tech Giant Negotiations", desc: "Starting discussions with global tech giants regarding 5000-hectare tax-free zones, server parks, and Hungarian AI integration." },
+                        { title: "Artificial Intelligence System Activation", desc: "The state AI model (AI Gov Assistant) becomes operational by the end of year one. <strong>IMPORTANT: The AI only monitors, analyzes, and suggests.</strong> It CANNOT make independent decisions. Control and final decisions always remain in human hands." },
                         { title: "Military Retraining Start", desc: "Along with modernization, special personnel retraining starts for latest tech and defense systems." },
-                        { title: "State AI System Design Start", desc: "Laying foundations for national AI system ensuring future administration efficiency." }
+                        { title: "Tech Giant Negotiations", desc: "Starting discussions with global tech giants regarding 5000-hectare tax-free zones, server parks, and Hungarian AI integration." },
+                        { title: "Abolishing Mandatory Health Tax for 65+", desc: "Immediate relief at the end of the first year: we abolish mandatory health insurance for all compatriots over 65, while maintaining full, free healthcare." },
+                        { title: "Exploration of Land Treasures & Resources", desc: "Immediate start of national exploration and state extraction of Hungary's strategic underground resources (geothermal wells, rare earth metals) and minerals." }
                     ]
                 },
                 {
@@ -1995,13 +1999,13 @@ export const translations = {
         },
         eldercare: {
             header: {
-                title: "ELDER CARE & HEALTH INSURANCE REFORM",
-                subtitle: "The elderly built this country. It's time to give back. Mandatory health insurance abolition, dignified care, and a peaceful retirement."
+                title: "RESPECT FOR THE ELDERLY: CARE & HEALTH REFORM",
+                subtitle: "They built the country we live in today. We owe it to them so they don't have to fight for survival in their old age. Real respect, financial security, and dignified care – this is not a promise, but our moral duty."
             },
             banner: {
-                badge: "THE ELDERLY ARE OUR HEROES",
-                title: "Over 65: Mandatory Health Insurance Abolished",
-                desc: "At the <strong>end of the first year</strong> of governance, we abolish <strong>mandatory health insurance for those over 65</strong>. No more paying for what you're owed. Healthcare for them is provided <strong>as a basic right, free of charge</strong>. Long-term goal: <strong>abolish mandatory health insurance for everyone</strong>."
+                badge: "RESPECT AND APPRECIATION",
+                title: "Over 65: Immediate Health Insurance Abolition",
+                desc: "They paid taxes and worked for a lifetime. It is unacceptable that the state still skims their pensions. <strong>At the end of the very first year of governance, we will immediately abolish mandatory health insurance for those over 65!</strong> No more paying for medical care – healthcare belongs to them <strong>as a basic right, 100% for free</strong>. This is the minimum we can give."
             },
             points: {
                 tb_abolish: {
