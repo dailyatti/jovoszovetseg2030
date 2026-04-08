@@ -290,9 +290,10 @@ export const translations = {
                         ],
                         footer: "Szigorú számonkérés: A nemzeti érdekvédelem nem jelenthet itthoni mutyizást. Csak azt a hazai céget emeljük fel, aki tisztességes minőséget és munkát tesz le az asztalra. Kóklereknek nincs kegyelem."
                     }
-                },
-                revenue_growth: {
-                    title: "Az Állam Saját Bevétele: A Sok Kicsi Sokra Megy",
+                }
+            },
+            revenue_growth: {
+                title: "Az Állam Saját Bevétele: A Sok Kicsi Sokra Megy",
                     summary: "Nem adóztatunk – a polgárok pénzét békén hagyjuk. Az állam saját üzleteiből, szolgáltatásaiból és igazságos díjaiból tartja fenn magát.",
                     p1: "A hagyományos modellben az állam <strong>elvesz a polgártól</strong> (SZJA, ÁFA, TAO, járulékok). A mi modellünkben az állam <strong>saját maga keres</strong> – és a sok apró, igazságos forrásból hatalmas nemzeti bevétel épül fel. Nem egy óriási adóbevételre épít az ország, hanem <strong>tucatnyi diverzifikált, profitáló állami vállalkozásra</strong>.",
                     box1: {
@@ -317,7 +318,6 @@ export const translations = {
                         conclusion: "<strong>A lényeg:</strong> Nem egy, hanem tíz forrásból építkezünk. Ha egy láb megbicsaklik, a többi kilenc tartja az országot. Ez diverzifikált, stabil és fenntartható bevételi modell – pont mint egy sikeres vállalkozásnál."
                     }
                 }
-            }
         },
         energy: {
             badge: "NEMZETI ENERGIA PROGRAM",
@@ -1365,9 +1365,10 @@ export const translations = {
                         ],
                         footer: "Strict accountability: Defending national interests does not mean tolerating domestic corruption. We only elevate domestic companies that deliver decent quality and hard work. No mercy for scammers."
                     }
-                },
-                revenue_growth: {
-                    title: "State's Own Revenue: Many Small Sources, Massive Income",
+                }
+            },
+            revenue_growth: {
+                title: "State's Own Revenue: Many Small Sources, Massive Income",
                     summary: "We don't tax – we leave citizens' money alone. The state sustains itself from its own businesses, services, and fair fees.",
                     p1: "In the traditional model, the state <strong>takes from the citizen</strong> (income tax, VAT, corporate tax, contributions). In our model, the state <strong>earns its own way</strong> – and many small, fair sources build massive national revenue. The country doesn't rely on one giant tax revenue, but on <strong>dozens of diversified, profitable state enterprises</strong>.",
                     box1: {
@@ -1392,7 +1393,6 @@ export const translations = {
                         conclusion: "<strong>The point:</strong> We build from not one, but ten sources. If one leg stumbles, the other nine hold the country up. This is a diversified, stable, and sustainable revenue model – just like a successful corporation."
                     }
                 }
-            }
         },
         energy: {
             badge: "NATIONAL ENERGY PROGRAM",
