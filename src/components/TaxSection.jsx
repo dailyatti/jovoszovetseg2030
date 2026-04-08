@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Briefcase, CheckCircle, Utensils, Award, Shield, Info, HeartPulse, Building } from "lucide-react";
+import { Briefcase, CheckCircle, Utensils, Award, Shield, Info, HeartPulse, Building, TrendingUp } from "lucide-react";
 import SectionHeader from "./SectionHeader";
 import DeepDivePoint from "./DeepDivePoint";
 import WageCalculator from "./WageCalculator";
@@ -126,6 +126,12 @@ export default function TaxSection() {
                                     </div>
                                     <p className="text-xs text-slate-500 mt-2 italic">{t('tax.items.gambling.box2.footer')}</p>
                                 </div>
+
+                                {/* Revenue Note */}
+                                <div className="bg-gradient-to-r from-emerald-50 to-green-50 p-4 rounded-xl border border-emerald-200">
+                                    <h5 className="font-bold text-emerald-800 mb-2">{t('tax.items.gambling.revenue_note.title')}</h5>
+                                    <p className="text-sm text-slate-700" dangerouslySetInnerHTML={{ __html: t('tax.items.gambling.revenue_note.desc') }} />
+                                </div>
                             </div>
                         </DeepDivePoint>
 
@@ -189,6 +195,41 @@ export default function TaxSection() {
                                     <p className="text-sm text-slate-700 font-bold mt-3 border-t border-emerald-200 pt-2">
                                         {t('tax.items.patriot.box2.footer')}
                                     </p>
+                                </div>
+                            </div>
+                        </DeepDivePoint>
+
+                        {/* Revenue Growth Summary */}
+                        <DeepDivePoint
+                            icon={TrendingUp}
+                            title={t('tax.revenue_growth.title')}
+                            summary={t('tax.revenue_growth.summary')}
+                            accentColor="green"
+                            isOpen={activeAccordion === 'tax-5'}
+                            onToggle={() => toggleAccordion('tax-5')}
+                        >
+                            <div className="space-y-4">
+                                <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('tax.revenue_growth.p1') }} />
+
+                                <div className="bg-gradient-to-r from-emerald-50 to-green-50 p-5 rounded-xl border border-emerald-200">
+                                    <h5 className="font-bold text-emerald-800 mb-3 text-lg">{t('tax.revenue_growth.box1.title')}</h5>
+                                    <ul className="text-sm text-slate-700 space-y-3">
+                                        {t('tax.revenue_growth.box1.list').map((item, i) => (
+                                            <li key={i} className="flex items-start gap-2 bg-white/60 p-3 rounded-lg border border-emerald-100">
+                                                <CheckCircle size={16} className="text-emerald-600 mt-0.5 flex-shrink-0" />
+                                                <div dangerouslySetInnerHTML={{ __html: item }} />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+
+                                <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-5 rounded-xl border border-blue-200">
+                                    <h5 className="font-bold text-blue-800 mb-3 text-lg">{t('tax.revenue_growth.box2.title')}</h5>
+                                    <div className="bg-white p-4 rounded-lg shadow-sm border text-center mb-3">
+                                        <div className="text-emerald-600 font-black text-2xl md:text-3xl font-display">{t('tax.revenue_growth.box2.total')}</div>
+                                    </div>
+                                    <p className="text-sm text-slate-700 mb-3" dangerouslySetInnerHTML={{ __html: t('tax.revenue_growth.box2.comparison') }} />
+                                    <p className="text-sm text-blue-800 font-bold border-t border-blue-200 pt-3" dangerouslySetInnerHTML={{ __html: t('tax.revenue_growth.box2.conclusion') }} />
                                 </div>
                             </div>
                         </DeepDivePoint>

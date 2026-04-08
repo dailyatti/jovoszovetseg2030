@@ -245,11 +245,15 @@ export const translations = {
                         ]
                     },
                     box2: {
-                        title: "📊 3 Kulcsos Adórendszer",
-                        desc: "Nem büntetjük a játékost, de a cégeket megadóztatjuk.",
+                        title: "📊 Kétkulcsos Adórendszer",
+                        desc: "Az ország saját bevétele sok apró, igazságos forrásból épül fel – nem a polgárt büntetjük, hanem a szolgáltatót adóztatjuk.",
                         corp_tax: "Cégek Adója",
                         player_tax: "Játékos Adója",
                         footer: "A nyereményed után NEM kell adóznod. A cég fizet a profitjából."
+                    },
+                    revenue_note: {
+                        title: "💰 Becsült Bevételnövekedés",
+                        desc: "A liberalizált szerencsejáték piac önmagában <strong>évi ~150-300 milliárd Ft állami bevételt</strong> jelent (10% céges adó + licencdíjak). Összehasonlításképpen: a jelenlegi Szerencsejáték Zrt. monopólium évi ~100 milliárd Ft-ot hoz. A szabad verseny tehát <strong>2-3x annyi bevételt</strong> jelent az államnak, miközben a játékos jobb szolgáltatást kap."
                     }
                 },
                 charity: {
@@ -285,6 +289,32 @@ export const translations = {
                             "<strong>Piacvédelem:</strong> A közbeszerzéseknél és állami megrendeléseknél a magyar cégek abszolút prioritást élveznek."
                         ],
                         footer: "Minőségi kontroll: Odafigyelünk, hogy a magánszolgáltatók (pl. magánkórházak) ne éljenek vissza a helyzettel. Nincs túlárazás, nincs átverés."
+                    }
+                },
+                revenue_growth: {
+                    title: "Az Állam Saját Bevétele: A Sok Kicsi Sokra Megy",
+                    summary: "Nem adóztatunk – a polgárok pénzét békén hagyjuk. Az állam saját üzleteiből, szolgáltatásaiból és igazságos díjaiból tartja fenn magát.",
+                    p1: "A hagyományos modellben az állam <strong>elvesz a polgártól</strong> (SZJA, ÁFA, TAO, járulékok). A mi modellünkben az állam <strong>saját maga keres</strong> – és a sok apró, igazságos forrásból hatalmas nemzeti bevétel épül fel. Nem egy óriási adóbevételre épít az ország, hanem <strong>tucatnyi diverzifikált, profitáló állami vállalkozásra</strong>.",
+                    box1: {
+                        title: "📊 Becsült Éves Állami Bevétel – Új Források",
+                        list: [
+                            "<strong>State-OS Licensz Export:</strong> Évi ~500-800 milliárd Ft – Az AI közigazgatási rendszert más országoknak adjuk bérbe.",
+                            "<strong>Hulladék-Energia Export:</strong> Évi ~300-500 milliárd Ft – Az EU hulladékát energiává alakítjuk, az áramot exportáljuk.",
+                            "<strong>E-Fuel Gyártás & Export:</strong> Évi ~200-400 milliárd Ft – Magyar e-üzemanyag az EU piacra.",
+                            "<strong>Szerencsejáték Liberalizáció:</strong> Évi ~150-300 milliárd Ft – Céges adó + licencdíjak a versenyző piactól.",
+                            "<strong>Tech Park Bérleti Díjak:</strong> Évi ~100-200 milliárd Ft – A magyar szilícium-völgy bérleti bevételei.",
+                            "<strong>Geotermikus Energia Export:</strong> Évi ~80-150 milliárd Ft – Zöld hőenergia értékesítés az EU-nak.",
+                            "<strong>NEXUS Platform Jutalékok:</strong> Évi ~50-100 milliárd Ft – Az állami digitális piactér tranzakciós díjai.",
+                            "<strong>AI & Szoftver Licenszek:</strong> Évi ~100-200 milliárd Ft – Magyar fejlesztésű AI rendszerek globális értékesítése.",
+                            "<strong>Luxus ÁFA (27%):</strong> Évi ~200-300 milliárd Ft – Alkohol, dohány, luxusautók utáni fogyasztási adó megmarad.",
+                            "<strong>Ásványkincs & Ritkaföldfém Export:</strong> Évi ~50-150 milliárd Ft – A feltárt föld alatti kincsek hasznosítása."
+                        ]
+                    },
+                    box2: {
+                        title: "🏆 Összesített Bevételi Potenciál",
+                        total: "Évi ~1.730 - 3.100 milliárd Ft",
+                        comparison: "Összehasonlításképpen: Magyarország 2024-es SZJA bevétele ~3.200 milliárd Ft volt. A mi modellünk ezt az összeget <strong>adóztatás nélkül</strong> képes kiváltani – és ez csak a konzervatív becslés. A felső határ a teljes kiépítés után elérhető.",
+                        conclusion: "<strong>A lényeg:</strong> Nem egy, hanem tíz forrásból építkezünk. Ha egy láb megbicsaklik, a többi kilenc tartja az országot. Ez diverzifikált, stabil és fenntartható bevételi modell – pont mint egy sikeres vállalkozásnál."
                     }
                 }
             }
@@ -1288,11 +1318,15 @@ export const translations = {
                         ]
                     },
                     box2: {
-                        title: "📊 3-Tier Tax System",
-                        desc: "We don't punish the player, but we tax the companies.",
+                        title: "📊 2-Tier Tax System",
+                        desc: "The country's own revenue is built from many small, fair sources – we don't punish the citizen, we tax the service provider.",
                         corp_tax: "Company Tax",
                         player_tax: "Player Tax",
                         footer: "You do NOT have to pay tax on your winnings. The company pays from its profit."
+                    },
+                    revenue_note: {
+                        title: "💰 Estimated Revenue Growth",
+                        desc: "The liberalized gambling market alone generates <strong>~€400-800 million annual state revenue</strong> (10% corporate tax + license fees). For comparison: the current Szerencsejáték Zrt. monopoly generates ~€260 million/year. Free competition means <strong>2-3x more revenue</strong> for the state, while players get better service."
                     }
                 },
                 charity: {
@@ -1328,6 +1362,32 @@ export const translations = {
                             "<strong>Market Protection:</strong> For public procurement and state orders, Hungarian companies enjoy absolute priority."
                         ],
                         footer: "Quality control: We pay attention so private providers (e.g. private hospitals) don't abuse the situation. No overpricing, no scams."
+                    }
+                },
+                revenue_growth: {
+                    title: "State's Own Revenue: Many Small Sources, Massive Income",
+                    summary: "We don't tax – we leave citizens' money alone. The state sustains itself from its own businesses, services, and fair fees.",
+                    p1: "In the traditional model, the state <strong>takes from the citizen</strong> (income tax, VAT, corporate tax, contributions). In our model, the state <strong>earns its own way</strong> – and many small, fair sources build massive national revenue. The country doesn't rely on one giant tax revenue, but on <strong>dozens of diversified, profitable state enterprises</strong>.",
+                    box1: {
+                        title: "📊 Estimated Annual State Revenue – New Sources",
+                        list: [
+                            "<strong>State-OS License Export:</strong> ~€1.3-2.1B/year – Leasing the AI public administration system to other countries.",
+                            "<strong>Waste-Energy Export:</strong> ~€800M-1.3B/year – Converting EU waste to energy, exporting the electricity.",
+                            "<strong>E-Fuel Production & Export:</strong> ~€530M-1.1B/year – Hungarian e-fuel for the EU market.",
+                            "<strong>Gambling Liberalization:</strong> ~€400-800M/year – Corporate tax + license fees from competitive market.",
+                            "<strong>Tech Park Rental Income:</strong> ~€265-530M/year – Rental revenues from the Hungarian Silicon Valley.",
+                            "<strong>Geothermal Energy Export:</strong> ~€210-400M/year – Green heat energy sales to the EU.",
+                            "<strong>NEXUS Platform Commissions:</strong> ~€130-265M/year – Transaction fees from the state digital marketplace.",
+                            "<strong>AI & Software Licenses:</strong> ~€265-530M/year – Global sales of Hungarian-developed AI systems.",
+                            "<strong>Luxury VAT (27%):</strong> ~€530-800M/year – Consumption tax on alcohol, tobacco, luxury cars remains.",
+                            "<strong>Mineral & Rare Earth Export:</strong> ~€130-400M/year – Utilizing discovered underground treasures."
+                        ]
+                    },
+                    box2: {
+                        title: "🏆 Combined Revenue Potential",
+                        total: "~€4.6 - 8.2 Billion / year",
+                        comparison: "For comparison: Hungary's 2024 income tax revenue was ~€8.5 billion. Our model can <strong>replace this amount without any taxation</strong> – and this is only the conservative estimate. The upper range is achievable after full program deployment.",
+                        conclusion: "<strong>The point:</strong> We build from not one, but ten sources. If one leg stumbles, the other nine hold the country up. This is a diversified, stable, and sustainable revenue model – just like a successful corporation."
                     }
                 }
             }
