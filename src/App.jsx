@@ -16,6 +16,9 @@ const EnergySection = React.lazy(() => import("./components/EnergySection"));
 const TechEcosystem = React.lazy(() => import("./components/TechEcosystem"));
 const EducationSection = React.lazy(() => import("./components/EducationSection"));
 const DefenseSection = React.lazy(() => import("./components/DefenseSection"));
+const AgricultureSection = React.lazy(() => import("./components/AgricultureSection"));
+const ElderCareSection = React.lazy(() => import("./components/ElderCareSection"));
+const JusticeSection = React.lazy(() => import("./components/JusticeSection"));
 const MigrationPolicy = React.lazy(() => import("./components/MigrationPolicy"));
 const Timeline = React.lazy(() => import("./components/Timeline"));
 const FAQSection = React.lazy(() => import("./components/FAQSection"));
@@ -50,6 +53,9 @@ export default function App() {
     { name: t('nav.economy'), href: "#economy" },
     { name: t('nav.taxes'), href: "#tax" },
     { name: t('nav.energy'), href: "#energy" },
+    { name: t('nav.agriculture'), href: "#agriculture" },
+    { name: t('nav.eldercare'), href: "#eldercare" },
+    { name: t('nav.justice'), href: "#justice" },
     { name: t('nav.tech'), href: "#tech" },
     { name: t('nav.education'), href: "#education" },
     { name: t('nav.defense'), href: "#army" },
@@ -83,6 +89,9 @@ export default function App() {
             <Suspense fallback={<Loading />}>
               <TaxSection />
               <EnergySection />
+              <AgricultureSection />
+              <ElderCareSection />
+              <JusticeSection />
               <TechEcosystem />
               <EducationSection />
               <DefenseSection />

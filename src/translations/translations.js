@@ -5,6 +5,9 @@ export const translations = {
             economy: "Gazdaság",
             taxes: "Adók",
             energy: "Energia",
+            agriculture: "Mezőgazdaság",
+            eldercare: "Gondoskodás",
+            justice: "Rend & Jog",
             tech: "Tech",
             education: "Oktatás",
             defense: "Hadsereg",
@@ -715,7 +718,7 @@ export const translations = {
                     ]
                 },
                 {
-                    title: "GPU / compute / chip (AI „izom”)",
+                    title: "GPU / compute / chip (AI \"izom\")",
                     items: [
                         { id: 15, name: "NVIDIA", role: "GPU / AI compute", status: "EU-HPC programok" },
                         { id: 16, name: "AMD", role: "GPU / compute", status: "EU-támogatott alternatíva" },
@@ -828,6 +831,217 @@ export const translations = {
             desc: "A technológia adott. A fedezet a lábunk előtt hever. Csak egy bátor döntés kell.",
             btn: "Vissza a Kalkulátorhoz"
         },
+        agriculture: {
+            header: {
+                title: "MEZŐGAZDASÁG & TERMÉSZETI KINCSEK",
+                subtitle: "Magyarország nem szegény ország – csak nem használjuk ki, ami a miénk. Precíziós mezőgazdaság, föld alatti erőforrások feltárása, és a magyar gazda védelme."
+            },
+            badge: "Drón + AI + Geotermikus = Magyar Arany",
+            stats: [
+                { value: "93.000 km²", label: "Magyarország területe" },
+                { value: "~60%", label: "Mezőgazdasági terület" },
+                { value: "2.000+", label: "Termálkút az országban" },
+                { value: "TOP 5", label: "EU geotermikus potenciál" }
+            ],
+            precision: {
+                title: "Precíziós Mezőgazdaság 4.0",
+                desc: "A magyar mezőgazdaságot a <strong>világ legmodernebb szintjére</strong> emeljük. Nem kapával, hanem drónokkal, mesterséges intelligenciával és műholdas vezérléssel dolgozunk. A cél: <strong>kétszeres hozam, feleannyi költséggel.</strong>",
+                list: [
+                    "<strong>AI Drónflotta:</strong> Automata permetezés, talajelemzés és betegségfelismerés drónokkal. A hadsereg agrár hadteste üzemelteti az állami földeken.",
+                    "<strong>Műholdas Talajmérés:</strong> Centiméteres pontosságú GPS-vezérlés minden traktoron. Teljesen automatizált vetés és aratás.",
+                    "<strong>Okos Öntözés:</strong> IoT szenzorok mérik a talaj nedvességét – csak annyi vizet használunk, amennyi kell. 40%-kal kevesebb víz, 30%-kal több termés.",
+                    "<strong>Vertikális Farmok:</strong> Városok közelében zárt, klímavezérelt termesztés – 12 hónapos szezon, pesticiámentes zöldségek."
+                ]
+            },
+            resources: {
+                title: "Föld Alatti Kincsek Feltárása",
+                desc: "Magyarország alatt <strong>hatalmas, kiaknázatlan erőforrások</strong> vannak. Ezeket az állam feltárja és az ország javára hasznosítja. Nem külföldi cégek gazdagodnak belőle – ez <strong>a mi kincsünk.</strong>",
+                list: [
+                    "<strong>Geotermikus Energia:</strong> Magyarország Európa TOP 5 geotermikus országának egyike. A föld alatti hőenergia képes fűteni városokat, üvegházakat és ipari létesítményeket – ingyen, örökre.",
+                    "<strong>Ásványkincsek & Ritkaföldfémek:</strong> Teljes geológiai feltárást végzünk. Lítium, mangán és más stratégiai ásványok kutatása – ezek az EV akkumulátorok és a hightech ipar alapanyagai.",
+                    "<strong>Termálvíz Vagyon:</strong> 2000+ termálkút Magyarországon – ez nemcsak gyógyturizmus, hanem energiaforrás és mezőgazdasági fűtés is.",
+                    "<strong>Kőolaj & Földgáz Maradékok:</strong> A korábbi MOL-kutatások alapján vannak még kiaknázatlan készletek. Feltárjuk és az állam javára hasznosítjuk."
+                ]
+            },
+            resource_cards: [
+                { title: "Geotermikus", desc: "Ingyen hőenergia a föld alól" },
+                { title: "Ásványkincsek", desc: "Lítium, mangán, stratégiai fémek" },
+                { title: "Termálvíz", desc: "2000+ kút, energia és gyógyászat" },
+                { title: "Szénhidrogén", desc: "Maradék készletek hasznosítása" }
+            ],
+            farmer_protection: {
+                title: "Magyar Gazda Védelme",
+                desc: "A <strong>magyar föld a magyar gazdáé</strong>. Nem engedjük, hogy külföldi nagytőke felvásárolja az országot. A gazdákat modern eszközökkel és pénzzel támogatjuk.",
+                list: [
+                    "<strong>Földvásárlási Tilalom:</strong> Külföldi magánszemély és cég nem vásárolhat magyar termőföldet. Ez nem tárgyalható.",
+                    "<strong>Kamattmentes Hitelek:</strong> Az állam 0%-os kamatozású fejlesztési hitelt biztosít a gazdáknak gépvásárlásra és modernizációra.",
+                    "<strong>Közvetlen Értékesítés:</strong> Megszüntetjük a közvetítők uralmát. A gazda közvetlenül értékesíthet a fogyasztónak az állami piaci platformon.",
+                    "<strong>Biztosítási Háló:</strong> Aszálykár, jégverés, árvíz – az állam fizet, nem a gazda megy tönkre."
+                ]
+            },
+            exploration: {
+                title: "Nemzeti Erőforrás Program",
+                desc: "Átfogó <strong>geológiai kutatási programot</strong> indítunk, hogy megtarjuk, pontosan mi van a lábunk alatt. A feltárt erőforrásokat az állam hasznosítja – a profit a közösbe megy.",
+                list: [
+                    "<strong>Nemzeti Geológiai Intézet:</strong> Új, modern intézetet hozunk létre a föld alatti kincsek szisztematikus feltárására.",
+                    "<strong>Geotermikus Hálózat:</strong> Minden városban, ahol lehetséges, geotermikus távfűtést építünk ki – ingyen hő az állampolgároknak.",
+                    "<strong>Stratégiai Tartalékok:</strong> A feltárt ásványkincseket és fémeket stratégiai tartalékként és ipari alapanyagként hasznosítjuk.",
+                    "<strong>EU Együttműködés:</strong> A geotermikus energiánkat és ásványkincseinket az EU klímacéljaihoz is felhasználjuk – zöld bevétel és presztízs."
+                ]
+            }
+        },
+        eldercare: {
+            header: {
+                title: "IDŐSGONDOZÁS & TB REFORM",
+                subtitle: "Az idősek megteremtették az országot. Ideje visszaadni nekik. Kötelező TB elengedése, méltó gondoskodás, és nyugodt öregkor."
+            },
+            banner: {
+                badge: "AZ IDŐSEK A MI HŐSEINK",
+                title: "65 Év Felett: Kötelező TB Elengedése",
+                desc: "A kormányzás <strong>első évének végén</strong> elengedjük a <strong>65 év felettiek kötelező TB-jét</strong>. Nem kell többé fizetni azért, ami jár. Az egészségügyi ellátás számukra <strong>alanyi jogon, ingyenesen</strong> biztosított. A hosszú távú cél: <strong>mindenkinek elengedni a kötelező TB-t</strong>."
+            },
+            points: {
+                tb_abolish: {
+                    title: "Kötelező TB Eltörlése – Fázisok",
+                    summary: "65+ az első évben, majd fokozatosan mindenkinek. Az egészségügy jog, nem termék.",
+                    p1: "Jelenleg Magyarországon a <strong>kötelező egészségbiztosítás (TB)</strong> egy újabb adó, amit az állam kényszerít rád. Mi ezt megszüntetjük. Az egészségügyi ellátás <strong>alanyi jog</strong>, nem szolgáltatás, amit meg kell venned. Az állam a saját bevételeiből (energia, tech, AI export) finanszírozza az egészségügyet.",
+                    box1: {
+                        title: "🗓️ Eltörlési Menetrend",
+                        phases: [
+                            { title: "1. Fázis – Első Év Vége (2031)", desc: "A <strong>65 év felettiek</strong> kötelező TB-je megszűnik. Számukra minden egészségügyi ellátás alanyi jogú és ingyenes." },
+                            { title: "2. Fázis – 3. Év (2033)", desc: "Kiterjesztés a <strong>gyermekekre, diákokra és nyugdíjasokra</strong>. A legkiszolgáltatottabbak védelmét biztosítjuk először." },
+                            { title: "3. Fázis – 4. Év (2034)", desc: "Amikor az állami bevételek lehetővé teszik, <strong>mindenki számára eltöröljük</strong> a kötelező TB-t. Teljes szabadság." }
+                        ]
+                    },
+                    box2: {
+                        title: "💊 Hogyan Finanszírozzuk?",
+                        desc: "Ugyanúgy, ahogy a 0% SZJA-t: az állam <strong>saját bevételeiből</strong>. A hulladék-energia export, a tech parkok bérleti díja, az AI licenszek és a NEXUS platform jutalékai bőven fedezik az egészségügyi kiadásokat. Az állam <strong>a polgárért van, nem fordítva</strong>."
+                    }
+                },
+                care: {
+                    title: "Gondoskodás a Nagyszülőkért",
+                    summary: "Ingyenes szállítás, házi gondozás, és digitális segítség az időseknek.",
+                    p1: "Az <strong>idős emberek</strong> megteremtették az országot, amiben ma élünk. A mi kötelességünk, hogy <strong>méltó és nyugodt öregkort</strong> biztosítsunk számukra. Nem szabad magukra hagynunk őket.",
+                    cards: [
+                        { title: "Ingyenes Egészségügy", desc: "Minden orvosi vizsgálat, kezelés és gyógyszer <strong>65 felett ingyenes</strong>. Nincs zsebből fizetés, nincs magánorvos kényszer." },
+                        { title: "Állami Taxi", desc: "Ingyenes szállítás orvoshoz, kórházba és gyógyszertárba. <strong>Egy gombnyomás</strong> és jön az autó – telefonon vagy az SBT rendszeren keresztül." },
+                        { title: "Házi Gondozás", desc: "Akinek segítség kell otthon, az <strong>képzett gondozót kap állami finanszírozásból</strong>. Nem kell az idősotthon, ha van segítség." },
+                        { title: "Közösségi Kapcsolat", desc: "Senki ne legyen egyedül. <strong>Közösségi programok, klubok és napközi</strong> az időseknek, ahol társaságban és aktivitásban tölthetik a napjaikat." }
+                    ]
+                },
+                quality: {
+                    title: "Méltó Nyugdíjas Élet",
+                    summary: "Magasabb nyugdíjak, méltó életszínvonal, és senki nem marad magára.",
+                    p1: "A nyugdíjasaink nem tudnak <strong>megélni a jelenlegi nyugdíjakból</strong>. Ez szégyen. Mi biztosítjuk, hogy az idős emberek <strong>méltóságban és biztonságban</strong> éljenek.",
+                    box1: {
+                        title: "🏡 Nyugdíjas Garanciák",
+                        list: [
+                            "<strong>Minimális Nyugdíj Emelés:</strong> A minimális nyugdíjat a létminimum fölé emeljük – senki nem élhet éhezve.",
+                            "<strong>Rezsi Garancia:</strong> 65 év felett a rezsi (fűtés, víz, áram) minimálisra csökkentett vagy ingyenes.",
+                            "<strong>Gyógyszerár Garancia:</strong> Az alapvető gyógyszerek ingyenesek 65 felett. Nincs többé választás az étel és a gyógyszer között.",
+                            "<strong>Digitális Segítő:</strong> Aki szeretné, ingyenes oktatást kap a digitális eszközök használatáról – hogy ne maradjon le a világról. De aki nem akarja: marad a régi rendszer.",
+                            "<strong>Biztonság:</strong> Kiemelt rendőri védelem az idős emberek számára. A velük szembeni bűncselekmények emelt büntetéssel járnak."
+                        ]
+                    }
+                }
+            }
+        },
+        justice: {
+            banner: {
+                badge: "A REND KORMÁNYA",
+                title: "Rend, Igazság, Védelem",
+                desc: "Mi a <strong>rend kormánya</strong> leszünk. Rendet teszünk az országban. Védjük a gyengéket, büntetjük a bűnösöket, és <strong>soha nem látott szigorral</strong> lépünk fel a társadalom ellenségeivel szemben."
+            },
+            points: {
+                medical_cannabis: {
+                    title: "Orvosi Marihuána – EU Szintű Szabályozás",
+                    summary: "Legalizáljuk az orvosi célú kannabiszt – pontosan úgy, ahogy a legtöbb EU-s ország is teszi. Szigorúan szabályozva, kizárólag orvosi célra.",
+                    p1: "Az orvosi célú marihuána (kannabisz) <strong>az EU legtöbb országában már legális</strong> orvosi receptre. Németország, Csehország, Olaszország, Lengyelország – mind engedélyezik. Mi sem leszünk elmaradva, de <strong>rendkívül szigorú szabályozással</strong> tesszük.",
+                    box1: {
+                        title: "🏥 Szabályozási Keretrendszer",
+                        list: [
+                            "<strong>Kizárólag Orvosi Célra:</strong> Receptköteles, szakorvos által felírt, dokumentált betegségek kezelésére (fájdalomcsillapítás, epilepszia, PTSD, kemoterápia mellékhatások).",
+                            "<strong>Dísznövénykénti Termesztés:</strong> A CBD-ben gazdag, alacsony THC tartalmú fajtákat dísznövényként is engedélyezzük – ahogy más EU országokban is működik.",
+                            "<strong>Hivatalos Helyeken:</strong> Kizárólag licencelt gyógyszertárakban és orvosi diszpenzériumokban vásárolható. Utcai értékesítés = bűncselekmény.",
+                            "<strong>Szigorú Ellenőrzés:</strong> Minden termesztés, feldolgozás és elosztás állami felügyelet alatt történik. Seed-to-sale nyomon követés.",
+                            "<strong>Minőségi Kontroll:</strong> Laboratóriumi tesztelés kötelező – THC/CBD arány, szennyeződés, mikotoxin ellenőrzés."
+                        ]
+                    },
+                    box2: {
+                        title: "🇪🇺 EU Országok Példája",
+                        list: [
+                            "<strong>Németország:</strong> 2024-től részleges legalizáció, receptre elérhető.",
+                            "<strong>Csehország:</strong> 2013 óta orvosi célra legális.",
+                            "<strong>Olaszország:</strong> Orvosi kannabisz államilag gyártva.",
+                            "<strong>Lengyelország:</strong> 2017 óta orvosi célra elérhető."
+                        ]
+                    },
+                    box3: {
+                        title: "⚠️ Ami NEM Változik",
+                        desc: "A <strong>rekreációs (szórakozási célú) marihuána továbbra is TILOS</strong>. Nem a hollandiai coffee shop modellt követjük. Ez orvosi eszköz, nem szórakozás. Utcai terjesztés, feketepiaci értékesítés és engedély nélküli termesztés <strong>továbbra is bűncselekmény</strong>, sőt: <strong>szigorúbban büntetjük, mint eddig</strong>."
+                    },
+                    warning: "FONTOS: Az orvosi marihuána nem \"szabad drog\". Visszaélés esetén az orvos és a beteg is felelősségre vonható. A rendszer célja a szenvedés csökkentése, nem a droghasználat bátorítása."
+                },
+                drug_policy: {
+                    title: "Kemény Drogpolitika – Soha Nem Látott Szigor",
+                    summary: "A drogterjesztők és dílerek börtöne. Aki terjeszti a drogot, többet napvilágot nem lát szabadon.",
+                    p1: "Míg az orvosi kannabiszt <strong>szabályozzuk és kontroll alatt tartjuk</strong>, addig a kemény drogok (heroin, kokain, metamfetamin, szintetikus drogok) terjesztőire <strong>a magyar történelem legszigorúbb büntetését</strong> szabjuk ki. <strong>Zéró tolerancia</strong> – kivétel nélkül.",
+                    box1: {
+                        title: "⛓️ A Büntetési Rendszer",
+                        list: [
+                            "<strong>Drogterjesztés / Díleri Tevékenység:</strong> Tényleges, hosszú börtönbüntetés – 15-25 év, feltételes szabadlábra helyezés nélkül. Aki drogot ad el, az <strong>többet napvilágot nem lát szabadon</strong>.",
+                            "<strong>Nagybani Termelés & Csempészet:</strong> Tényleges életfogytiglan. Nincs kegyelem, nincs alku. Az embereket megölő szerek gyártóinak és szállítóinak nincs helye a társadalomban.",
+                            "<strong>Kiskorúak Bevonása:</strong> Ha valaki kiskorút használ drog terjesztésére, az emelt büntetéssel jár – automatikusan a legmagasabb büntetési tétel alkalmazandó.",
+                            "<strong>Recidívák (Visszaesők):</strong> Második drogbűncselekmény esetén nincs enyhítő körülmény. A bíróság köteles a maximális büntetést kiszabni.",
+                            "<strong>Vagyon Elkobzás:</strong> A drogterjesztésből származó <strong>teljes vagyont</strong> az állam elkobozza – ingatlan, autó, bankszámla, kripto. Minden fillér."
+                        ]
+                    }
+                },
+                life_sentence: {
+                    title: "Tényleges Életfogytiglan – Pedofilok & Erőszakos Bűnözők",
+                    summary: "Tényleges életfogytiglan a pedofiloknak és az erőszakos bűnözőknek. Nincs kedvezmény. Nincs feltételes.",
+                    p1: "A <strong>gyermekek elleni szexuális bűncselekmények</strong> és az <strong>erőszakos bűncselekmények</strong> elkövetőire Magyarországon <strong>tényleges életfogytiglani börtönbüntetés</strong> vár. Ez nem politikai szlogen – ez törvény lesz. <strong>Nincs feltételes szabadlábra helyezés, nincs kegyelem, nincs enyhítés.</strong>",
+                    box1: {
+                        title: "Kik Kapják?",
+                        list: [
+                            "<strong>Pedofília:</strong> Gyermekek elleni bármilyen szexuális bűncselekmény – tényleges életfogytiglan. Nincs második esély.",
+                            "<strong>Erőszakos Nemi Erőszak:</strong> Az áldozat életének tönkretétele nem maradhat következmény nélkül.",
+                            "<strong>Szervezett Erőszakos Bűnözés:</strong> Bandaháborúk, fegyveres rablások szervezői – az utcáról végleg eltávolítjuk őket.",
+                            "<strong>Gyilkosság Minősített Esetei:</strong> Többszörös gyilkosság, aljas indokból elkövetett emberölés."
+                        ]
+                    },
+                    box2: {
+                        title: "Igazságos Eljárás",
+                        desc: "A <strong>tényleges életfogytiglan kizárólag jogerős bírósági ítélet</strong> alapján szabható ki. A vádlottnak joga van a védőhöz, a fellebbezéshez és a tisztességes eljáráshoz. De ha az ítélet jogerős: <strong>nincs visszaút</strong>. A társadalom védelme az első."
+                    },
+                    quote: "\"Aki bántja a gyerekeinket, aki terrorizálja a családjainkat: többet napvilágot nem lát. Ez nem bosszú – ez védelem.\""
+                },
+                labor_law: {
+                    title: "Rabszolgatörvény Eltörlése – Multik Munkajogi Reformja",
+                    summary: "A multik fontosak, de a magyar munkás nem rabszolga. Vége az egész napos beosztásnak és a kizsákmányolásnak.",
+                    p1: "A multik <strong>fontos szereplői a magyar gazdaságnak</strong> – munkahelyet adnak, adót fizetnek (amíg van), és technológiát hoznak. De van egy <strong>vastag piros vonal</strong>: a magyar munkás <strong>nem rabszolga</strong>. Az úgynevezett <strong>\"rabszolgatörvényt\" eltöröljük</strong>, és kemény szabályokat hozunk a munkahelyi visszaélések ellen.",
+                    box1: {
+                        title: "🚫 Amit Betiltunk",
+                        list: [
+                            "<strong>Egész Napos Jelenlét Kényszer:</strong> Vége annak, hogy \"vagy ott vagy egész nap 12 órában, vagy jön helyetted más\". Ez zsarolás, és mostantól <strong>törvénytelen</strong>.",
+                            "<strong>Törvényes Munkaidő:</strong> A napi munkaidő <strong>maximum 8 óra</strong>. Túlóra csak önkéntes alapon és <strong>dupla bérért</strong>. Aki ennél többet követel: szankció.",
+                            "<strong>Kirúgás Fenyegetés:</strong> Ha egy cég azzal fenyeget, hogy elbocsát, mert nem vagy hajlandó 12 órát dolgozni: <strong>milliós bírság a cégnek</strong> és automatikus kártérítés a munkavállalónak.",
+                            "<strong>Pihenőidő Garancia:</strong> Két műszak között <strong>minimum 11 óra pihenőidő</strong> – ez EU norma, és mi betartatjuk."
+                        ]
+                    },
+                    box2: {
+                        title: "✅ Ami Történik, Ha Nem Tartják Be",
+                        list: [
+                            "<strong>Első Szabálysértés:</strong> Írásbeli figyelmeztetés és munkavédelmi ellenőrzés.",
+                            "<strong>Második Szabálysértés:</strong> Bevétel-arányos bírság (a cég éves forgalmának 1-5%-a).",
+                            "<strong>Harmadik Szabálysértés:</strong> A cég <strong>működési engedélyének felfüggesztése</strong>. Ha nem felelnek meg az előírásoknak: <strong>repülnek az országból</strong>.",
+                            "<strong>Munkavállalói Védelem:</strong> Aki bejelentést tesz, azt <strong>elbocsátási tilalom</strong> védi 2 évig."
+                        ]
+                    },
+                    note: "💡 <strong>A cél nem a multik üldözése</strong> – hanem az, hogy tisztessséges munkakörülményeket biztosítsanak. Aki jól fizet és fair: azt támogatjuk. Aki kizsákmányol: annak vége."
+                }
+            }
+        },
     },
     en: {
         nav: {
@@ -835,6 +1049,9 @@ export const translations = {
             economy: "Economy",
             taxes: "Taxes",
             energy: "Energy",
+            agriculture: "Agriculture",
+            eldercare: "Elder Care",
+            justice: "Order & Law",
             tech: "Tech",
             education: "Education",
             defense: "Defense",
@@ -1656,6 +1873,217 @@ export const translations = {
             title_part3: "GIVE.",
             desc: "The technology is here. The coverage is at our feet. Only a brave decision is needed.",
             btn: "Back to Calculator"
+        },
+        agriculture: {
+            header: {
+                title: "AGRICULTURE & NATURAL RESOURCES",
+                subtitle: "Hungary is not a poor country – we just don't use what's ours. Precision agriculture, underground resource exploration, and protecting Hungarian farmers."
+            },
+            badge: "Drone + AI + Geothermal = Hungarian Gold",
+            stats: [
+                { value: "93,000 km²", label: "Hungary's territory" },
+                { value: "~60%", label: "Agricultural land" },
+                { value: "2,000+", label: "Thermal wells" },
+                { value: "TOP 5", label: "EU geothermal potential" }
+            ],
+            precision: {
+                title: "Precision Agriculture 4.0",
+                desc: "We elevate Hungarian agriculture to the <strong>world's most modern level</strong>. Not with hoes, but with drones, artificial intelligence, and satellite guidance. The goal: <strong>double yield, half the cost.</strong>",
+                list: [
+                    "<strong>AI Drone Fleet:</strong> Automated spraying, soil analysis, and disease detection with drones. The army's agricultural corps operates them on state lands.",
+                    "<strong>Satellite Soil Mapping:</strong> Centimeter-precision GPS control on every tractor. Fully automated seeding and harvesting.",
+                    "<strong>Smart Irrigation:</strong> IoT sensors measure soil moisture – we use only the water needed. 40% less water, 30% more yield.",
+                    "<strong>Vertical Farms:</strong> Closed, climate-controlled cultivation near cities – 12-month season, pesticide-free vegetables."
+                ]
+            },
+            resources: {
+                title: "Underground Treasure Exploration",
+                desc: "Beneath Hungary lie <strong>vast, untapped resources</strong>. The state will explore and utilize them for the country's benefit. Foreign companies won't profit – this is <strong>our treasure.</strong>",
+                list: [
+                    "<strong>Geothermal Energy:</strong> Hungary is one of Europe's TOP 5 geothermal countries. Underground heat energy can heat cities, greenhouses, and industrial facilities – for free, forever.",
+                    "<strong>Minerals & Rare Earth Metals:</strong> We conduct a complete geological survey. Lithium, manganese, and other strategic minerals research – these are the raw materials for EV batteries and the high-tech industry.",
+                    "<strong>Thermal Water Assets:</strong> 2,000+ thermal wells in Hungary – not just health tourism, but energy source and agricultural heating too.",
+                    "<strong>Oil & Gas Remnants:</strong> Based on previous MOL explorations, untapped reserves remain. We explore and utilize them for the state's benefit."
+                ]
+            },
+            resource_cards: [
+                { title: "Geothermal", desc: "Free heat energy from underground" },
+                { title: "Minerals", desc: "Lithium, manganese, strategic metals" },
+                { title: "Thermal Water", desc: "2,000+ wells, energy & healing" },
+                { title: "Hydrocarbons", desc: "Utilizing remaining reserves" }
+            ],
+            farmer_protection: {
+                title: "Protecting Hungarian Farmers",
+                desc: "<strong>Hungarian land belongs to Hungarian farmers</strong>. We won't let foreign capital buy up the country. We support farmers with modern tools and funding.",
+                list: [
+                    "<strong>Land Purchase Ban:</strong> Foreign individuals and companies cannot buy Hungarian agricultural land. This is non-negotiable.",
+                    "<strong>Interest-Free Loans:</strong> The state provides 0% interest development loans to farmers for equipment and modernization.",
+                    "<strong>Direct Sales:</strong> We eliminate middleman dominance. Farmers can sell directly to consumers through the state market platform.",
+                    "<strong>Insurance Safety Net:</strong> Drought, hail, flood – the state pays, not the farmer going bankrupt."
+                ]
+            },
+            exploration: {
+                title: "National Resource Program",
+                desc: "We launch a comprehensive <strong>geological research program</strong> to discover exactly what lies beneath our feet. Discovered resources are utilized by the state – profits go to the community.",
+                list: [
+                    "<strong>National Geological Institute:</strong> We create a new, modern institute for systematic underground treasure exploration.",
+                    "<strong>Geothermal Network:</strong> In every city where possible, we build geothermal district heating – free heat for citizens.",
+                    "<strong>Strategic Reserves:</strong> Discovered minerals and metals are used as strategic reserves and industrial raw materials.",
+                    "<strong>EU Cooperation:</strong> We use our geothermal energy and minerals for EU climate goals too – green revenue and prestige."
+                ]
+            }
+        },
+        eldercare: {
+            header: {
+                title: "ELDER CARE & HEALTH INSURANCE REFORM",
+                subtitle: "The elderly built this country. It's time to give back. Mandatory health insurance abolition, dignified care, and a peaceful retirement."
+            },
+            banner: {
+                badge: "THE ELDERLY ARE OUR HEROES",
+                title: "Over 65: Mandatory Health Insurance Abolished",
+                desc: "At the <strong>end of the first year</strong> of governance, we abolish <strong>mandatory health insurance for those over 65</strong>. No more paying for what you're owed. Healthcare for them is provided <strong>as a basic right, free of charge</strong>. Long-term goal: <strong>abolish mandatory health insurance for everyone</strong>."
+            },
+            points: {
+                tb_abolish: {
+                    title: "Mandatory Health Insurance Abolition – Phases",
+                    summary: "65+ in the first year, then gradually for everyone. Healthcare is a right, not a product.",
+                    p1: "Currently in Hungary, <strong>mandatory health insurance (TB)</strong> is just another tax forced on you by the state. We will abolish it. Healthcare is a <strong>basic right</strong>, not a service you have to buy. The state finances healthcare from its own revenues (energy, tech, AI exports).",
+                    box1: {
+                        title: "🗓️ Abolition Timeline",
+                        phases: [
+                            { title: "Phase 1 – End of First Year (2031)", desc: "Mandatory health insurance for <strong>those over 65</strong> is abolished. All healthcare for them is free as a basic right." },
+                            { title: "Phase 2 – Year 3 (2033)", desc: "Extension to <strong>children, students, and retirees</strong>. We protect the most vulnerable first." },
+                            { title: "Phase 3 – Year 4 (2034)", desc: "When state revenues allow, we <strong>abolish it for everyone</strong>. Complete freedom." }
+                        ]
+                    },
+                    box2: {
+                        title: "💊 How Do We Finance It?",
+                        desc: "The same way as the 0% income tax: from the state's <strong>own revenues</strong>. Waste-energy exports, tech park rents, AI licenses, and NEXUS platform commissions more than cover healthcare expenses. The state <strong>exists for the citizen, not the other way around</strong>."
+                    }
+                },
+                care: {
+                    title: "Caring for Our Grandparents",
+                    summary: "Free transportation, home care, and digital assistance for the elderly.",
+                    p1: "<strong>Elderly people</strong> built the country we live in today. It is our duty to ensure a <strong>dignified and peaceful old age</strong> for them. We must not leave them alone.",
+                    cards: [
+                        { title: "Free Healthcare", desc: "All medical examinations, treatments, and medicines <strong>free over 65</strong>. No out-of-pocket payment, no private doctor pressure." },
+                        { title: "State Taxi", desc: "Free transportation to doctor, hospital, and pharmacy. <strong>One button press</strong> and the car arrives – by phone or through the SBT system." },
+                        { title: "Home Care", desc: "Those needing help at home receive a <strong>trained caregiver funded by the state</strong>. No need for nursing homes when there's help." },
+                        { title: "Community Connection", desc: "No one should be alone. <strong>Community programs, clubs, and day centers</strong> for the elderly where they can spend their days in company and activity." }
+                    ]
+                },
+                quality: {
+                    title: "Dignified Retirement Life",
+                    summary: "Higher pensions, dignified standard of living, and no one is left behind.",
+                    p1: "Our retirees <strong>cannot survive on current pensions</strong>. This is a disgrace. We ensure that elderly people live <strong>in dignity and safety</strong>.",
+                    box1: {
+                        title: "🏡 Retirement Guarantees",
+                        list: [
+                            "<strong>Minimum Pension Increase:</strong> We raise the minimum pension above the subsistence level – no one should live starving.",
+                            "<strong>Utility Guarantee:</strong> Over 65, utilities (heating, water, electricity) are minimized or free.",
+                            "<strong>Medicine Price Guarantee:</strong> Essential medicines are free over 65. No more choosing between food and medicine.",
+                            "<strong>Digital Assistant:</strong> Those who want it get free training in digital device usage – so they don't fall behind. Those who don't want it: the old system remains.",
+                            "<strong>Security:</strong> Enhanced police protection for elderly people. Crimes against them carry elevated penalties."
+                        ]
+                    }
+                }
+            }
+        },
+        justice: {
+            banner: {
+                badge: "THE GOVERNMENT OF ORDER",
+                title: "Order, Justice, Protection",
+                desc: "We will be the <strong>government of order</strong>. We will restore order in the country. We protect the weak, punish the guilty, and act with <strong>unprecedented severity</strong> against the enemies of society."
+            },
+            points: {
+                medical_cannabis: {
+                    title: "Medical Marijuana – EU-Level Regulation",
+                    summary: "We legalize medical cannabis – exactly as most EU countries do. Strictly regulated, exclusively for medical purposes.",
+                    p1: "Medical marijuana (cannabis) is <strong>already legal in most EU countries</strong> by prescription. Germany, Czech Republic, Italy, Poland – all allow it. We won't fall behind, but we do it with <strong>extremely strict regulation</strong>.",
+                    box1: {
+                        title: "🏥 Regulatory Framework",
+                        list: [
+                            "<strong>Exclusively Medical Use:</strong> Prescription-only, prescribed by specialists for documented conditions (pain relief, epilepsy, PTSD, chemotherapy side effects).",
+                            "<strong>Ornamental Plant Cultivation:</strong> CBD-rich, low-THC strains are also permitted as ornamental plants – as in other EU countries.",
+                            "<strong>Official Outlets Only:</strong> Purchasable exclusively at licensed pharmacies and medical dispensaries. Street sales = crime.",
+                            "<strong>Strict Oversight:</strong> All cultivation, processing, and distribution under state supervision. Seed-to-sale tracking.",
+                            "<strong>Quality Control:</strong> Laboratory testing is mandatory – THC/CBD ratio, contamination, mycotoxin checks."
+                        ]
+                    },
+                    box2: {
+                        title: "🇪🇺 EU Country Examples",
+                        list: [
+                            "<strong>Germany:</strong> Partial legalization from 2024, available by prescription.",
+                            "<strong>Czech Republic:</strong> Legal for medical use since 2013.",
+                            "<strong>Italy:</strong> Medical cannabis produced by the state.",
+                            "<strong>Poland:</strong> Available for medical use since 2017."
+                        ]
+                    },
+                    box3: {
+                        title: "⚠️ What Does NOT Change",
+                        desc: "<strong>Recreational marijuana remains PROHIBITED</strong>. We don't follow the Dutch coffee shop model. This is a medical tool, not entertainment. Street distribution, black market sales, and unlicensed cultivation <strong>remain criminal offenses</strong>, and in fact: <strong>we punish them more harshly than before</strong>."
+                    },
+                    warning: "IMPORTANT: Medical marijuana is not 'free drugs'. In case of abuse, both doctor and patient can be held accountable. The system's goal is reducing suffering, not encouraging drug use."
+                },
+                drug_policy: {
+                    title: "Hard Drug Policy – Unprecedented Severity",
+                    summary: "Prison for drug dealers and distributors. Those who spread drugs will never see daylight as free people again.",
+                    p1: "While we <strong>regulate and control medical cannabis</strong>, for hard drug distributors (heroin, cocaine, methamphetamine, synthetic drugs) we impose <strong>the strictest punishments in Hungarian history</strong>. <strong>Zero tolerance</strong> – no exceptions.",
+                    box1: {
+                        title: "⛓️ The Punishment System",
+                        list: [
+                            "<strong>Drug Distribution / Dealing:</strong> Actual, long prison sentences – 15-25 years, without parole. Those who sell drugs will <strong>never see daylight as free people again</strong>.",
+                            "<strong>Wholesale Production & Smuggling:</strong> Actual life imprisonment. No mercy, no plea deals. Manufacturers and transporters of substances that kill people have no place in society.",
+                            "<strong>Involving Minors:</strong> Using minors for drug distribution carries enhanced penalties – the maximum sentence automatically applies.",
+                            "<strong>Repeat Offenders:</strong> Second drug offense: no mitigating circumstances. The court is obligated to impose the maximum sentence.",
+                            "<strong>Asset Seizure:</strong> <strong>All assets</strong> from drug dealing are seized by the state – real estate, cars, bank accounts, crypto. Every penny."
+                        ]
+                    }
+                },
+                life_sentence: {
+                    title: "True Life Imprisonment – Pedophiles & Violent Criminals",
+                    summary: "True life imprisonment for pedophiles and violent criminals. No discounts. No parole.",
+                    p1: "Perpetrators of <strong>sexual crimes against children</strong> and <strong>violent crimes</strong> in Hungary will face <strong>true life imprisonment</strong>. This is not a political slogan – this will be law. <strong>No parole, no mercy, no leniency.</strong>",
+                    box1: {
+                        title: "Who Gets It?",
+                        list: [
+                            "<strong>Pedophilia:</strong> Any sexual crime against children – true life imprisonment. No second chance.",
+                            "<strong>Violent Rape:</strong> Destroying a victim's life cannot go without consequences.",
+                            "<strong>Organized Violent Crime:</strong> Gang warfare, organized armed robbery leaders – permanently removed from the streets.",
+                            "<strong>Aggravated Murder:</strong> Multiple murders, killing with base motives."
+                        ]
+                    },
+                    box2: {
+                        title: "Fair Trial",
+                        desc: "<strong>True life imprisonment can only be imposed</strong> based on a final court verdict. The defendant has the right to a lawyer, appeals, and a fair trial. But once the verdict is final: <strong>there is no way back</strong>. Protection of society comes first."
+                    },
+                    quote: "\"Those who harm our children, those who terrorize our families: will never see daylight again. This is not revenge – this is protection.\""
+                },
+                labor_law: {
+                    title: "Abolishing the 'Slave Law' – Multinational Labor Reform",
+                    summary: "Multinationals are important, but Hungarian workers are not slaves. End of all-day shifts and exploitation.",
+                    p1: "Multinationals are <strong>important players in the Hungarian economy</strong> – they provide jobs, pay taxes (while they last), and bring technology. But there is a <strong>thick red line</strong>: Hungarian workers are <strong>not slaves</strong>. We will <strong>abolish the so-called 'slave law'</strong> and enforce strict rules against workplace abuses.",
+                    box1: {
+                        title: "🚫 What We Ban",
+                        list: [
+                            "<strong>All-Day Presence Coercion:</strong> No more 'either you're there for 12 hours all day, or someone else replaces you'. This is blackmail, and from now on it's <strong>illegal</strong>.",
+                            "<strong>Legal Working Hours:</strong> Daily working time is <strong>maximum 8 hours</strong>. Overtime only on a voluntary basis and at <strong>double pay</strong>. Anyone demanding more: sanctions.",
+                            "<strong>Firing Threats:</strong> If a company threatens dismissal because you won't work 12 hours: <strong>millions in fines for the company</strong> and automatic compensation for the employee.",
+                            "<strong>Rest Time Guarantee:</strong> <strong>Minimum 11 hours rest</strong> between shifts – this is an EU norm, and we enforce it."
+                        ]
+                    },
+                    box2: {
+                        title: "✅ What Happens If They Don't Comply",
+                        list: [
+                            "<strong>First Violation:</strong> Written warning and labor protection inspection.",
+                            "<strong>Second Violation:</strong> Revenue-proportional fine (1-5% of the company's annual turnover).",
+                            "<strong>Third Violation:</strong> <strong>Suspension of operating license</strong>. If they don't meet requirements: <strong>they're out of the country</strong>.",
+                            "<strong>Employee Protection:</strong> Whistleblowers are protected by a <strong>2-year dismissal ban</strong>."
+                        ]
+                    },
+                    note: "💡 <strong>The goal is not to persecute multinationals</strong> – but to ensure fair working conditions. Those who pay well and play fair: we support them. Those who exploit: it's over for them."
+                }
+            }
         }
     }
 };
