@@ -252,7 +252,7 @@ export const translations = {
                     },
                     box2: {
                         title: "📊 Háromkulcsos Adórendszer Sérthetetlen Elvei",
-                        desc: "Vége a VPN-eken külföldre folyó, adózatlan tőkének. A szabad versenyben elköltött jövedelem mostantól itthon marad, mind a cég, mind a normál vállalkozói bevételek (pl. Onlyfans alkotók) tekintetében.",
+                        desc: "Vége a VPN-eken külföldre folyó, adózatlan tőkének. A szektor bevétele mostantól itthon marad. <br/><br/><strong>Miért pont 10% egy külön kulcsban?</strong> Mert ha erre is 27%-os Áfát tennénk, a vállalatok nem jönnének vissza – ez ebbe az iparágba elfogadhatatlan –, és a játékosokkal szemben sem lenne fair ekkora elvonás. Ugyanakkor 0% sem lehet, mert akkor nem lenne miből az országot fejleszteni. Ezért muszáj a szerencsejátékot külön kategóriába sorolni egy felzárkóztató, önálló adókulccsal.",
                         corp_tax: "Cégek Adója",
                         player_tax: "Játékos Adója",
                         footer: "Igazságos tehermegosztás: 10%-ot fizetsz a felvett nyeremény után. A cégek szintén egy fix 10%-os céladót fizetnek. Minden cent, ami ebből befolyik = Kórházak és Nyugdíjak."
@@ -1370,7 +1370,7 @@ export const translations = {
                     },
                     box2: {
                         title: "📊 Inviolable Principles of the 3-Tier System",
-                        desc: "No more untaxed capital flowing out through VPNs. Income spent in free competition now stays at home, covering both corporate and normal entrepreneurial revenues (e.g., Onlyfans creators).",
+                        desc: "No more untaxed capital flowing out through VPNs. Income spent in the sector now stays at home. <br/><br/><strong>Why exactly 10% in a separate tier?</strong> Because if we imposed a 27% VAT here too, companies would not return – it's unacceptable in this industry – and such a high deduction wouldn't be fair to the players either. At the same time, it cannot be 0%, because then we couldn't spend money on developing the country. Therefore, gambling must be categorized separately with its own optimal tax rate.",
                         corp_tax: "Company Tax",
                         player_tax: "Player Tax",
                         footer: "Fair burden sharing: You pay 10% on your withdrawn winnings. Companies also pay a fixed 10% designated tax. Every cent collected = Hospitals and Pensions."
