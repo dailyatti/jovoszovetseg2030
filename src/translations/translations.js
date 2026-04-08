@@ -216,20 +216,26 @@ export const translations = {
                     ]
                 },
                 vat: {
-                    title: "Kétkulcsos Fogyasztási Adó (ÁFA)",
-                    summary: "Ami az élethez kell: 0%. Ami luxus vagy káros: 27%.",
-                    p1: "A fogyasztási adót (ÁFA) nem töröljük el, de <strong>igazságossá tesszük</strong>. Két kategória van:",
+                    title: "Háromkulcsos Adórendszer (ÁFA & Céladók)",
+                    summary: "Ami az élethez kell: 0%. Szerencsejáték: 10%. Ami luxus vagy káros: 27%.",
+                    p1: "A fogyasztási adót (ÁFA) nem töröljük el, de <strong>igazságossá tesszük</strong>. Három fő kategória van:",
                     green_box: {
-                        title: "✅ 0% ÁFA (Zöld Doboz)",
+                        title: "✅ 0% Alapvető (Zöld Doboz)",
                         desc: "Alapvető életszükségletek – adómentesen:",
                         items: ["Élelmiszer, víz", "Gyógyszer, egészségügy", "Ruházat, cipő", "Lakhatás, rezsi", "Tömegközlekedés", "Oktatás, könyvek"],
                         footer: "📉 Azonnali árcsökkenés: ~27%"
                     },
+                    blue_box: {
+                        title: "🎲 10% Szerencsejáték (Kék Doboz)",
+                        desc: "Szabályozott, SBT-hez kötött céladó:",
+                        items: ["Sportfogadás, Kaszinó", "A vállalat fizeti a profit után (10%)", "A játékos a nyeremény után (10%)"],
+                        footer: "A bevétel 100%-a kórházakra, utakra, nyugdíjra megy."
+                    },
                     yellow_box: {
-                        title: "⚠️ 27% ÁFA (Sárga Doboz)",
-                        desc: "Luxus és káros termékek – marad az adó:",
-                        items: ["Alkohol, dohány", "Cukrozott üdítők, energiaitalok, csokoládék", "Luxusautók (50m Ft+ felett)"],
-                        footer: "Ez nem büntetés – ez választás. Ha egészségesen élsz, 0%-ot fizetsz."
+                        title: "⚠️ 27% Luxus & Káros (Sárga Doboz)",
+                        desc: "Káros szenvedélyek és luxus:",
+                        items: ["Alkohol, dohány, energiaitalok", "Luxusautók (50m Ft+ felett)", "SBT-vel monitorozott Felnőtt/Pornográf-ipar"],
+                        footer: "Ez választás. Ha egészségesen élsz, 0%-ot fizetsz."
                     }
                 },
                 gambling: {
@@ -245,15 +251,15 @@ export const translations = {
                         ]
                     },
                     box2: {
-                        title: "📊 Kétkulcsos Adórendszer",
-                        desc: "Az ország saját bevétele sok apró, igazságos forrásból épül fel – nem a polgárt büntetjük, hanem a szolgáltatót adóztatjuk.",
+                        title: "📊 Háromkulcsos Adórendszer Sérthetetlen Elvei",
+                        desc: "Vége a VPN-eken külföldre folyó, adózatlan tőkének. A szabad versenyben elköltött jövedelem mostantól itthon marad, mind a cég, mind a normál vállalkozói bevételek (pl. Onlyfans alkotók) tekintetében.",
                         corp_tax: "Cégek Adója",
                         player_tax: "Játékos Adója",
-                        footer: "A nyereményed után NEM kell adóznod. A cég fizet a profitjából."
+                        footer: "Igazságos tehermegosztás: 10%-ot fizetsz a felvett nyeremény után. A cégek szintén egy fix 10%-os céladót fizetnek. Minden cent, ami ebből befolyik = Kórházak és Nyugdíjak."
                     },
                     revenue_note: {
-                        title: "💰 Becsült Bevételnövekedés",
-                        desc: "A liberalizált szerencsejáték piac önmagában <strong>évi ~150-300 milliárd Ft állami bevételt</strong> jelent (10% céges adó + licencdíjak). Összehasonlításképpen: a jelenlegi Szerencsejáték Zrt. monopólium évi ~100 milliárd Ft-ot hoz. A szabad verseny tehát <strong>2-3x annyi bevételt</strong> jelent az államnak, miközben a játékos jobb szolgáltatást kap."
+                        title: "💰 Átlátható Kifizetések",
+                        desc: "A fenti egyenlő, de szigorú adórendszer miatt pontosan, egyetlen cent tévedés nélkül vonjuk le az adót mind a cégektől, mind a játékosoktól, mely egyből a társadalmi felemelkedés kasszájába vándorol."
                     }
                 },
                 charity: {
@@ -1071,6 +1077,43 @@ export const translations = {
                         ]
                     },
                     note: "💡 <strong>A cél nem a multik üldözése</strong> – hanem az, hogy tisztessséges munkakörülményeket biztosítsanak. Aki jól fizet és fair: azt támogatjuk. Aki kizsákmányol: annak vége."
+                },
+                prostitution_policy: {
+                    title: "A Maffia Felszámolása: Prostitúció Szigorú Szabályozása",
+                    summary: "Megállítjuk a maffiahálózatokat és a kizsákmányolást. Utcai stricik és lányfuttatás helyett szigorú, adózott, ellenőrzött keretek.",
+                    p1: "Nem dughatjuk a fejünket a homokba: az utcai prostitúció létező probléma, ami bűnözést, kizsákmányolást és emberkereskedelmet szül. <strong>A maffiahálózatokat meg kell állítani és a kiskorúakat meg kell védeni.</strong> Ezt csak vaskezű szigorral és transzparens szabályozással lehet elérni.",
+                    box1: {
+                        title: "🛑 Utcán és Közterületen TILOS",
+                        list: [
+                            "<strong>Vége az Utcai Árulásnak:</strong> Szigorúan, azonnali hatállyal betiltjuk és börtönnel büntetjük az utcai prostitúciót.",
+                            "<strong>Stricik és Futtatók Kiiktatása:</strong> A maffiahálózatok és futtatók ellen azonos szigillal lépünk fel, mint a kábítószer-dílerek ellen. Tényleges, eltávozás nélküli börtönbüntetés."
+                        ]
+                    },
+                    box2: {
+                        title: "🏨 Törvényes, Biztonságos Keretek",
+                        list: [
+                            "<strong>Csak Hivatalos Vállalkozóként:</strong> Kizárólag érvényes, egyéni vállalkozói engedéllyel végezhető a tevékenység.",
+                            "<strong>SBT Rendszerhez Kötve:</strong> Minden szolgáltatónak az SBT (Smart Block Token) rendszerben ellenőrzöttnek kell lennie, biztosítva az adófizetést (27%-os Áfa kulcs érvényes rájuk is) és a teljes anonim, de transzparens gazdasági tisztaságot.",
+                            "<strong>Zárt, Hotel Környezetben:</strong> Csak hotelekben, bérelt és engedélyezett biztonságos ingatlanokban történhet, ahol az állam garantálni tudja, hogy senkit nem tartanak ott akarata ellenére. Nincs több modernkori rabszolgatartás."
+                        ]
+                    }
+                },
+                pride_events: {
+                    title: "Rendezvények, Pride és Közerkölcs",
+                    summary: "A gyülekezési jog mindenkit megillet – a jóízlés és a közerkölcs betartásának feltételével.",
+                    p1: "Az LMBTQ+ közösség rendezvényeit (pl. Pride) <strong>engedélyezzük</strong> és a gyülekezési jogot tiszteletben tartjuk. Magyarország minden békés polgárának joga van ahhoz, hogy közösségként szerveződjön és felvonuljon. <strong>Azonban a szabadság nem egyenlő a szabadossággal.</strong>",
+                    box1: {
+                        title: "⚠️ Szigorú Részvételi Keretek",
+                        list: [
+                            "<strong>Normális, Ízléses Öltözék:</strong> A közterület mindenkié. Alulöltözött, szexuálisan provokatív ruházat, vagy meztelenség <strong>azonnali előállítást és súlyos pénzbírságot</strong> von maga után az utcán.",
+                            "<strong>Tilos a Hangoskodás és Randalírozás:</strong> A békés felvonulás megengedett, de mások csendjének szélsőséges megzavarása nem.",
+                            "<strong>Nulla Tolerancia Kiskorúak Védelmében:</strong> Erősen sexualizált tartalom közszemlére tétele gyermekek (kiskorúak) jelenlétében szigorúan büntetendő."
+                        ]
+                    },
+                    box2: {
+                        title: "👮 Fokozott Rendőri Biztosítás",
+                        desc: "A hatóságok nagy erőkkel lesznek jelen – nemcsak az esetleges provokátorok ellen védve a felvonulókat, hanem <strong>ugyanekkora szigorral fellépve a viselkedni nem tudó résztvevőkkel szemben is</strong>. A rend fenntartása mindkét oldalra vonatkozik."
+                    }
                 }
             }
         },
@@ -1291,20 +1334,26 @@ export const translations = {
                     ]
                 },
                 vat: {
-                    title: "Two-Tier Consumption Tax (VAT)",
-                    summary: "Essentials: 0%. Luxury or harmful: 27%.",
-                    p1: "We don't abolish consumption tax (VAT), but we make it <strong>fair</strong>. There are two categories:",
+                    title: "Three-Tier Tax System (VAT & Earmarked Taxes)",
+                    summary: "Essentials: 0%. Gambling: 10%. Luxury or harmful: 27%.",
+                    p1: "We don't abolish consumption tax (VAT), but we make it <strong>fair</strong>. There are three main categories:",
                     green_box: {
-                        title: "✅ 0% VAT (Green Box)",
+                        title: "✅ 0% Essentials (Green Box)",
                         desc: "Basic life necessities – tax-free:",
                         items: ["Food, water", "Medicine, healthcare", "Clothing, shoes", "Housing, utilities", "Public transport", "Education, books"],
                         footer: "📉 Immediate price drop: ~27%"
                     },
+                    blue_box: {
+                        title: "🎲 10% Gambling (Blue Box)",
+                        desc: "Regulated, SBT-tracked designated tax:",
+                        items: ["Sports betting, Casino", "Company pays on profit (10%)", "Player pays on winnings (10%)"],
+                        footer: "100% of revenue goes to hospitals, roads, pensions."
+                    },
                     yellow_box: {
-                        title: "⚠️ 27% VAT (Yellow Box)",
-                        desc: "Luxury and harmful products – tax remains:",
-                        items: ["Alcohol, tobacco", "Sugary drinks, energy drinks, chocolates", "Luxury cars (over 50m HUF)"],
-                        footer: "This is not punishment – it's a choice. If you live healthily, you pay 0%."
+                        title: "⚠️ 27% Luxury & Vice (Yellow Box)",
+                        desc: "Harmful addictions and luxury products:",
+                        items: ["Alcohol, tobacco, energy drinks", "Luxury cars (over 50m HUF)", "Adult/Pornography industry tracked via SBT"],
+                        footer: "It's a choice. If you live healthily, you pay 0%."
                     }
                 },
                 gambling: {
@@ -1320,15 +1369,15 @@ export const translations = {
                         ]
                     },
                     box2: {
-                        title: "📊 2-Tier Tax System",
-                        desc: "The country's own revenue is built from many small, fair sources – we don't punish the citizen, we tax the service provider.",
+                        title: "📊 Inviolable Principles of the 3-Tier System",
+                        desc: "No more untaxed capital flowing out through VPNs. Income spent in free competition now stays at home, covering both corporate and normal entrepreneurial revenues (e.g., Onlyfans creators).",
                         corp_tax: "Company Tax",
                         player_tax: "Player Tax",
-                        footer: "You do NOT have to pay tax on your winnings. The company pays from its profit."
+                        footer: "Fair burden sharing: You pay 10% on your withdrawn winnings. Companies also pay a fixed 10% designated tax. Every cent collected = Hospitals and Pensions."
                     },
                     revenue_note: {
-                        title: "💰 Estimated Revenue Growth",
-                        desc: "The liberalized gambling market alone generates <strong>~€400-800 million annual state revenue</strong> (10% corporate tax + license fees). For comparison: the current Szerencsejáték Zrt. monopoly generates ~€260 million/year. Free competition means <strong>2-3x more revenue</strong> for the state, while players get better service."
+                        title: "💰 Transparent Payouts",
+                        desc: "Due to the equal but strict tax system, we deduct the tax from both companies and players without a single cent of error, which goes straight to the treasury for social elevation."
                     }
                 },
                 charity: {
@@ -2146,6 +2195,43 @@ export const translations = {
                         ]
                     },
                     note: "💡 <strong>The goal is not to persecute multinationals</strong> – but to ensure fair working conditions. Those who pay well and play fair: we support them. Those who exploit: it's over for them."
+                },
+                prostitution_policy: {
+                    title: "Dismantling the Mafia: Strict Regulation of Prostitution",
+                    summary: "We will stop the mafia networks and exploitation. Street pimps and prostitution will be replaced by strict, taxed, and supervised frameworks.",
+                    p1: "We cannot bury our heads in the sand: street prostitution is an existing problem that breeds crime, exploitation, and human trafficking. <strong>The mafia networks must be stopped and minors must be protected.</strong> This can only be achieved through iron-fisted strictness and transparent regulation.",
+                    box1: {
+                        title: "🛑 BANNED on Streets and Public Areas",
+                        list: [
+                            "<strong>End of Street Prostitution:</strong> We strictly and immediately ban street prostitution, punishable by prison.",
+                            "<strong>Eliminating Pimps:</strong> We will crack down on mafia networks and pimps with the same severity as drug dealers. Actual prison sentences without parole."
+                        ]
+                    },
+                    box2: {
+                        title: "🏨 Legal, Safe Frameworks",
+                        list: [
+                            "<strong>Only as Official Entrepreneurs:</strong> The activity can only be performed with a valid sole proprietorship license.",
+                            "<strong>Tied to the SBT System:</strong> All providers must be verified in the SBT (Smart Block Token) system, ensuring tax payment (the 27% VAT rate applies to them as well) and complete, anonymous but transparent economic cleanliness.",
+                            "<strong>Closed Hotel Environments:</strong> It can only take place in hotels or rented and licensed safe properties, where the state can guarantee that no one is held against their will. No more modern-day slavery."
+                        ]
+                    }
+                },
+                pride_events: {
+                    title: "Public Events, Pride, and Public Morals",
+                    summary: "The right to assembly applies to everyone – provided good taste and public morals are respected.",
+                    p1: "We <strong>permit</strong> LGBTQ+ community events (e.g., Pride) and respect the right to assembly. Every peaceful citizen of Hungary has the right to organize and march as a community. <strong>However, freedom does not equal licentiousness.</strong>",
+                    box1: {
+                        title: "⚠️ Strict Framework for Participation",
+                        list: [
+                            "<strong>Normal, Tasteful Attire:</strong> Public spaces belong to everyone. Underdressed, sexually provocative clothing, or nudity will result in <strong>immediate arrest and severe fines</strong> on the streets.",
+                            "<strong>No Noise Nuisance or Vandalism:</strong> Peaceful marching is allowed, but extreme disturbance of others' peace is not.",
+                            "<strong>Zero Tolerance for the Protection of Minors:</strong> Displaying highly sexualized content in the presence of children (minors) is strictly punishable."
+                        ]
+                    },
+                    box2: {
+                        title: "👮 Increased Police Security",
+                        desc: "Authorities will be present in large numbers – not only protecting marchers against potential provocateurs, but <strong>acting with equal severity against participants who fail to behave properly</strong>. Maintaining order applies to both sides."
+                    }
                 }
             }
         }

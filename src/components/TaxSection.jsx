@@ -64,7 +64,7 @@ export default function TaxSection() {
                             <div className="space-y-4">
                                 <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('tax.items.vat.p1') }} />
 
-                                <div className="grid md:grid-cols-2 gap-4">
+                                <div className="grid md:grid-cols-3 gap-4">
                                     <div className="bg-emerald-50 p-4 rounded-xl border border-emerald-100">
                                         <h5 className="font-bold text-emerald-800 mb-2">{t('tax.items.vat.green_box.title')}</h5>
                                         <p className="text-sm text-slate-700 mb-2">{t('tax.items.vat.green_box.desc')}</p>
@@ -74,6 +74,17 @@ export default function TaxSection() {
                                             ))}
                                         </ul>
                                         <p className="text-sm font-bold text-emerald-600 mt-2">{t('tax.items.vat.green_box.footer')}</p>
+                                    </div>
+
+                                    <div className="bg-blue-50 p-4 rounded-xl border border-blue-100">
+                                        <h5 className="font-bold text-blue-800 mb-2">{t('tax.items.vat.blue_box.title')}</h5>
+                                        <p className="text-sm text-slate-700 mb-2">{t('tax.items.vat.blue_box.desc')}</p>
+                                        <ul className="text-sm text-slate-600 space-y-1">
+                                            {t('tax.items.vat.blue_box.items').map((item, i) => (
+                                                <li key={i}>• {item}</li>
+                                            ))}
+                                        </ul>
+                                        <p className="text-sm font-bold text-blue-600 mt-2">{t('tax.items.vat.blue_box.footer')}</p>
                                     </div>
 
                                     <div className="bg-yellow-50 p-4 rounded-xl border border-yellow-100">
@@ -120,7 +131,7 @@ export default function TaxSection() {
                                             <div className="text-xs text-slate-500">{t('tax.items.gambling.box2.corp_tax')}</div>
                                         </div>
                                         <div className="bg-white p-3 rounded-lg shadow-sm border text-center flex-1">
-                                            <div className="text-emerald-500 font-bold text-lg">0%</div>
+                                            <div className="text-blue-500 font-bold text-lg">10%</div>
                                             <div className="text-xs text-slate-500">{t('tax.items.gambling.box2.player_tax')}</div>
                                         </div>
                                     </div>
