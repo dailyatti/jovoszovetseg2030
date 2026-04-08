@@ -42,9 +42,10 @@ export default function Timeline() {
                                             <CheckCircle size={20} className="text-emerald-500 flex-shrink-0 group-hover:scale-110 transition-transform" />
                                             <strong className="text-slate-800 text-lg">{item.title}</strong>
                                         </div>
-                                        <p className="text-slate-600 text-sm leading-relaxed pl-8">
-                                            {item.desc}
-                                        </p>
+                                        <p 
+                                            className="text-slate-600 text-sm leading-relaxed pl-8" 
+                                            dangerouslySetInnerHTML={{ __html: item.desc }} 
+                                        />
                                     </li>
                                 ))}
                             </ul>

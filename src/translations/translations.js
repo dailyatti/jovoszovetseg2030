@@ -850,7 +850,7 @@ export const translations = {
             info_title: "Információ",
             links: {
                 program: ["Alapprogram", "Gazdaság", "Energia", "Oktatás", "Biztonság"],
-                info: ["Rólunk", "Csapat", "Sajtószoba", "Dokumentumok"],
+                info: ["A program alkotója:", "dailyatti.jns@gmail.com"],
                 legal: ["Adatvédelem", "Impresszum", "Cookie szabályzat"]
             },
             desc: "A Profit-Termelő Állam programja egy új, fenntartható modellt kínál Magyarország számára.",
@@ -1925,7 +1925,7 @@ export const translations = {
             info_title: "Information",
             links: {
                 program: ["Core Program", "Economy", "Energy", "Education", "Security"],
-                info: ["About Us", "Team", "Press Room", "Documents"],
+                info: ["Program Creator:", "dailyatti.jns@gmail.com"],
                 legal: ["Privacy Policy", "Imprint", "Cookie Policy"]
             },
             desc: "The Profit-Generating State program offers a new, sustainable model for Hungary.",

@@ -58,9 +58,15 @@ export default function Footer() {
                         <div>
                             <h4 className="font-display font-bold text-white mb-4">{f?.info_title}</h4>
                             <ul className="space-y-3">
-                                {(f?.links?.info || []).map((link) => (
-                                    <li key={link}>
-                                        <a href="#" className="text-sm hover:text-white transition-colors">{link}</a>
+                                {(f?.links?.info || []).map((link, i) => (
+                                    <li key={i}>
+                                        {link.includes('@') ? (
+                                            <a href={`mailto:${link}`} className="text-sm text-blue-400 hover:text-blue-300 transition-colors font-medium">
+                                                {link}
+                                            </a>
+                                        ) : (
+                                            <span className="text-sm text-slate-400">{link}</span>
+                                        )}
                                     </li>
                                 ))}
                             </ul>
