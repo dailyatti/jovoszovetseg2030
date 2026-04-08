@@ -124,7 +124,7 @@ export default function TaxSection() {
                                 </div>
                                 <div className="bg-blue-50 p-4 rounded-xl border border-blue-100">
                                     <h5 className="font-bold text-blue-800 mb-2">{t('tax.items.gambling.box2.title')}</h5>
-                                    <p className="text-sm text-slate-700 mb-2">{t('tax.items.gambling.box2.desc')}</p>
+                                    <p className="text-sm text-slate-700 mb-2" dangerouslySetInnerHTML={{ __html: t('tax.items.gambling.box2.desc') }} />
                                     <div className="flex gap-4 items-center mt-2">
                                         <div className="bg-white p-3 rounded-lg shadow-sm border text-center flex-1">
                                             <div className="text-red-500 font-bold text-lg">10%</div>
