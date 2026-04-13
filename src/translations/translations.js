@@ -627,7 +627,7 @@ export const translations = {
                     items: [
                         { title: "0% SZJA Bevezetése", desc: "Ezt a lépést is akkor tesszük meg, amikor az AI rendszerünk által generált megtakarítások ezt kockázatmentesen lehetővé teszik. Történelmi pillanat: az állami bevételek már fedezik a kiadásokat, így a jövedelemadót teljesen eltöröljük." },
                         { title: "Magyar Benzin (350 Ft Célár)", desc: "A kutakon megjelenik a saját gyártású E-Fuel. Az árstabilitást az állami energiaprofit biztosítja." },
-                        { title: "Ipari Kánaán", desc: "A nyugatról menekülő autógyárak (BMW, Audi) a 0% adó és az olcsó energia miatt hozzánk telepítik a teljes gyártást." }
+                        { title: "Ipari Kánaán", desc: "Elsősorban a magyar vállalkozásokat segítjük a multikkal szemben, de tőlük sem zárkózunk el. A 0% adó és az olcsó energia rengeteg nyugati autógyárat (BMW, Audi) vonz be, de szigorú a feltételünk: cserébe a nyugati bérek többszörösét kell fizetniük a magyar dolgozóknak azért, hogy itt lehessenek." }
                     ]
                 },
                 {
@@ -1750,7 +1750,7 @@ export const translations = {
                     items: [
                         { title: "0% PIT Introduction", desc: "This step is taken when AI-generated savings make it risk-free. Historic moment: state revenues cover expenses, income tax is completely abolished." },
                         { title: "Hungarian Petrol (350 Ft Target)", desc: "Self-produced E-Fuel appears at stations. Price stability ensured by state energy profit." },
-                        { title: "Industrial Canaan", desc: "Car factories fleeing West (BMW, Audi) relocate entire production here due to 0% tax and cheap energy." }
+                        { title: "Industrial Canaan", desc: "We primarily support Hungarian businesses against multinationals, but we don't shut our doors out to them. 0% tax and cheap energy attract Western factories (BMW, Audi), yet in exchange for operating here, they must pay multiples of Western wages to Hungarian workers." }
                     ]
                 },
                 {
