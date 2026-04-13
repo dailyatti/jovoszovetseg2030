@@ -823,6 +823,11 @@ export const translations = {
                         ]
                     }
                 },
+                two_thirds: {
+                    title: "Alkotmányos Védelem: Vége az Önkényes 2/3-nak",
+                    summary: "2/3-os vagy akár 100%-os parlamenti többség esetén sem módosítható az Alaptörvény a nép jóváhagyása nélkül. Nincs teljhatalom.",
+                    content: "<p class=\"mb-4 text-slate-600 leading-relaxed\">Amennyiben a Jövő Szövetség vagy bármely más párt kétharmados (2/3), akár háromharmados (100%) parlamenti többséget szerez, <strong>első dolgunk lesz úgy módosítani az alkotmányt</strong>, hogy teljhatalmú törvényeket, illetve alkotmánymódosításokat a nép megkérdezése nélkül <strong>senki ne hozhasson</strong>.</p><ul class=\"space-y-3 mt-4 text-slate-600\"><li class=\"flex gap-2 items-start\"><span class=\"text-emerald-500 mt-1 shrink-0 font-bold\">✓</span><span><strong class=\"block text-slate-800\">SBT Népalkarat:</strong> Bármilyen 2/3-os parlamenti többség esetén is, alkotmánymódosításhoz az <strong>SBT rendszeren keresztül a teljes lakosságot meg kell kérdezni</strong>.</span></li><li class=\"flex gap-2 items-start\"><span class=\"text-emerald-500 mt-1 shrink-0 font-bold\">✓</span><span><strong class=\"block text-slate-800\">65%-os Kötelező Küszöb:</strong> Az alkotmányt <strong>csak és kizárólag abban az esetben szabad módosítani</strong>, ha a nép minimum <strong>65%-a</strong> egyértelműen jelzi, hogy van rá igény.</span></li><li class=\"flex gap-2 items-start\"><span class=\"text-emerald-500 mt-1 shrink-0 font-bold\">✓</span><span><strong class=\"block text-slate-800\">2 Hónapos Türelmi Idő:</strong> A szavazásra és a döntés megalapozására egy kötelező <strong>2 hónapos határidő</strong> áll rendelkezésre. Nincsenek éjszaka, titokban átnyomott törvények.</span></li></ul><p class=\"mt-4 text-slate-600 leading-relaxed\">Magyarul: egyetlen teljhatalmú vezér - bármilyen elsöprő többséggel nyer is - nem hozhat a nép akarata nélkül alkotmánymódosítást. Ez az Alaptörvény megmásíthatatlan része lesz.</p>"
+                },
                 rights: {
                     title: "Alkotmányos Garanciák: Test és Szabadság",
                     summary: "Az állam nem kényszeríthet semmire. Ez nem csak ígéret, ez Alkotmány.",
@@ -1940,6 +1945,11 @@ export const translations = {
                             "<strong>Targeted Aid:</strong> The SBT sees exactly who needs it. Immediate, automatic transfer in case of trouble."
                         ]
                     }
+                },
+                two_thirds: {
+                    title: "Constitutional Protection: End of Arbitrary Supermajorities",
+                    summary: "Even with a 2/3 or 100% parliamentary majority, the Constitution cannot be modified without the people's consent. No absolute power.",
+                    content: "<p class=\"mb-4 text-slate-600 leading-relaxed\">If the Future Alliance or any other party gains a two-thirds (2/3) or even a three-thirds (100%) parliamentary majority, <strong>our first act will be to amend the constitution</strong> so that no one can pass absolute laws or constitutional amendments without consulting the people.</p><ul class=\"space-y-3 mt-4 text-slate-600\"><li class=\"flex gap-2 items-start\"><span class=\"text-emerald-500 mt-1 shrink-0 font-bold\">✓</span><span><strong class=\"block text-slate-800\">SBT Will of the People:</strong> Even with a 2/3 parliamentary majority, <strong>the entire population must be consulted via the SBT system</strong> for any constitutional amendment.</span></li><li class=\"flex gap-2 items-start\"><span class=\"text-emerald-500 mt-1 shrink-0 font-bold\">✓</span><span><strong class=\"block text-slate-800\">Mandatory 65% Threshold:</strong> The constitution <strong>can only be amended</strong> if at least <strong>65%</strong> of the people clearly indicate their demand for it.</span></li><li class=\"flex gap-2 items-start\"><span class=\"text-emerald-500 mt-1 shrink-0 font-bold\">✓</span><span><strong class=\"block text-slate-800\">2-Month Reflection Period:</strong> A mandatory <strong>2-month deadline</strong> is provided for voting and establishing the decision. No laws pushed through secretly at night.</span></li></ul><p class=\"mt-4 text-slate-600 leading-relaxed\">In short: a single almighty leader - regardless of how overwhelming their majority may be - cannot enact a constitutional amendment without the will of the people. This will be an unalterable part of the Fundamental Law.</p>"
                 },
                 rights: {
                     title: "Constitutional Guarantees: Body and Freedom",
