@@ -53,8 +53,35 @@ export const translations = {
             },
             badge: "Web 4.0 = AI + Blokklánc + Állampolgári Kontroll",
             points: {
+                web4_state: {
+                    title: "1. KÖZPÉNZ A BLOKKLÁNCON & SBT Rendszer",
+                    summary: "Minden közpénz útja nyilvános a blokkláncon. Te döntöd el, mire menjen a helyi adód az SBT-vel.",
+                    p1: "A \"Web 4.0\" nem marketing bullshit. Ez a következő internet-korszak, ahol az <strong>AI és a blokklánc</strong> együttműködve olyan rendszereket hoz létre, amelyeket nem lehet meghackelni, megvesztegetni vagy manipulálni. Mi ezt alkalmazzuk az államra.",
+                    box1: {
+                        title: "🔗 Blokklánc Költségvetés – Üvegzseb 2.0",
+                        desc: "Jelenleg az állami költségvetés egy 500 oldalas PDF, amit senki nem ért. A mi rendszerünkben:",
+                        list: [
+                            "<strong>Minden tranzakció nyilvános:</strong> Belépsz az SBT-ddel, és látod, hogy a XI. kerület 50 millió forintot költött játszótérre. Látod a számlát, a kivitelezőt, az árajánlatokat.",
+                            "<strong>Valós idejű:</strong> Nem évente egyszer publikálják, hanem másodpercenként frissül, ahogy a pénz mozog.",
+                            "<strong>Hamisíthatatlan:</strong> A blokkláncra írt adatot nem lehet utólag módosítani. Ha valaki lop, örökre ott marad a bizonyíték."
+                        ]
+                    },
+                    box2: {
+                        title: "🗳️ Közösségi Döntéshozatal (DAO-szerű Szavazás az SBT-vel)",
+                        desc: "A helyi adód egy részéről Te döntesz. Okos szerződések és a biztonságos SBT (Soulbound Token) digitális személyi segítségével biztonságosan, név nélkül szavazhatsz:",
+                        list: ["<strong>Nincs politikus:</strong> Nem a polgármester dönt a haveroknak, hanem a közösség az SBT-rendszeren keresztül."]
+                    },
+                    box3: {
+                        title: "🛡️ AI Fogyasztóvédelem & Rend",
+                        desc: "Vége a \"kisbetűs részeknek\" és az átveréseknek. Az állami AI (Watchdog) automatikusan elemzi a cégek szerződéseit és üzleti gyakorlatát.",
+                        list: [
+                            "<strong>Megelőzés:</strong> Az AI jelez, ha egy webshop vagy szolgáltató gyanúsan viselkedik, és azonnal blokkolja a tranzakciókat, amíg nem tisztázzák.",
+                            "<strong>Vállalati Felelősség:</strong> Aki megpróbálja átverni a magyar vásárlókat (legyen az bank, biztosító vagy telekom), az automatikus, bevétel-arányos büntetést kap. Nincs kibúvó."
+                        ]
+                    }
+                },
                 state_os: {
-                    title: "1. Állami AI Szoftver (State-OS) – A Korrupció Halála",
+                    title: "2. Állami AI Szoftver (State-OS) – A Korrupció Halála",
                     summary: "Kifejlesztjük a világ legfejlettebb, korrupció-biztos államigazgatási rendszerét, és bérbe adjuk más országoknak.",
                     p1: "A magyar államigazgatás jelenleg drága, lassú és átláthatatlan. Mi egy olyan mesterséges intelligencia rendszert fejlesztünk ki (<strong>State-OS</strong>), amely teljes mértékben automatizálja és felügyeli az állam működését. Ez nem sci-fi, hanem a meglévő technológiák (GPT-szintű nyelvi modellek, blokklánc, okos szerződések) összekapcsolása.",
                     box1: {
@@ -81,7 +108,7 @@ export const translations = {
                     }
                 },
                 waste_plasma: {
-                    title: "2. Hulladék Import & Plazma Energia – A Nyugat Fizet, Mi Gazdagodunk",
+                    title: "3. Hulladék Import & Plazma Energia – A Nyugat Fizet, Mi Gazdagodunk",
                     summary: "Négy stratégiai hub, 4000°C-os technológia, 4-5 éves megtérülés. Nem csak áramot, de építőanyagot és hőt is termelünk.",
                     p1: "Ez a program gazdasági motorja. <strong>NEM leszünk Európa szemetese!</strong> A célunk nem a tárolás, hanem az energiaelőállítás. A Japánban már működő rendszer mintájára a beérkező hulladékot azonnal árammá és üzemanyaggá alakítjuk. Németország és a nyugat fizet, hogy átvegyük (Kapudíj) – mi pedig tiszta energiát és profitot csinálunk belőle.",
                     box1: {
@@ -120,7 +147,7 @@ export const translations = {
                     }
                 },
                 e_fuel: {
-                    title: "3. Magyar Benzin (E-Fuel) – A Benzinmotor Megmentése",
+                    title: "4. Magyar Benzin (E-Fuel) – A Benzinmotor Megmentése",
                     summary: "Az áramból folyékony üzemanyagot gyártunk. Az EU tiltja a benzint? Mi megkerüljük. Legálisan.",
                     p1: "2035-től az EU betiltja az új benzin- és dízelmotoros autók gyártását. De van egy kiskapu, amit mi \"főbejárattá\" alakítunk: az <strong>E-Fuel</strong> (szintetikus, karbonsemleges üzemanyag) használata továbbra is engedélyezett. Ezt hívják <strong>\"Ferrari-záradéknak\"</strong>.",
                     box1: {
@@ -139,33 +166,6 @@ export const translations = {
                     box3: {
                         title: "TrendingUp Autóipar Menekülése",
                         desc: "Míg Németország bezárja a motorgyárakat, azok <strong>hozzánk költöznek</strong>. Mi leszünk Európa utolsó helye, ahol igazi autókat gyártanak. Munkahelyek, adóbevétel, export."
-                    }
-                },
-                web4_state: {
-                    title: "4. Web 4.0 Állam – Átlátható Költségvetés, Állampolgári Szavazás",
-                    summary: "Minden közpénz útja nyilvános a blokkláncon. Te döntöd el, mire menjen a helyi adód.",
-                    p1: "A \"Web 4.0\" nem marketing bullshit. Ez a következő internet-korszak, ahol az <strong>AI és a blokklánc</strong> együttműködve olyan rendszereket hoz létre, amelyeket nem lehet meghackelni, megvesztegetni vagy manipulálni. Mi ezt alkalmazzuk az államra.",
-                    box1: {
-                        title: "🔗 Blokklánc Költségvetés – Üvegzseb 2.0",
-                        desc: "Jelenleg az állami költségvetés egy 500 oldalas PDF, amit senki nem ért. A mi rendszerünkben:",
-                        list: [
-                            "<strong>Minden tranzakció nyilvános:</strong> Belépsz az SBT-ddel, és látod, hogy a XI. kerület 50 millió forintot költött játszótérre. Látod a számlát, a kivitelezőt, az árajánlatokat.",
-                            "<strong>Valós idejű:</strong> Nem évente egyszer publikálják, hanem másodpercenként frissül, ahogy a pénz mozog.",
-                            "<strong>Hamisíthatatlan:</strong> A blokkláncra írt adatot nem lehet utólag módosítani. Ha valaki lop, örökre ott marad a bizonyíték."
-                        ]
-                    },
-                    box2: {
-                        title: "🗳️ Közösségi Döntéshozatal (DAO-szerű Szavazás)",
-                        desc: "A helyi adód egy részéről Te döntesz. Okos szerződések segítségével biztonságosan, név nélkül szavazhatsz:",
-                        list: ["<strong>Nincs politikus:</strong> Nem a polgármester dönt a haveroknak, hanem a közösség."]
-                    },
-                    box3: {
-                        title: "🛡️ AI Fogyasztóvédelem & Rend",
-                        desc: "Vége a \"kisbetűs részeknek\" és az átveréseknek. Az állami AI (Watchdog) automatikusan elemzi a cégek szerződéseit és üzleti gyakorlatát.",
-                        list: [
-                            "<strong>Megelőzés:</strong> Az AI jelez, ha egy webshop vagy szolgáltató gyanúsan viselkedik, és azonnal blokkolja a tranzakciókat, amíg nem tisztázzák.",
-                            "<strong>Vállalati Felelősség:</strong> Aki megpróbálja átverni a magyar vásárlókat (legyen az bank, biztosító vagy telekom), az automatikus, bevétel-arányos büntetést kap. Nincs kibúvó."
-                        ]
                     }
                 },
                 web4_workforce: {
@@ -1177,8 +1177,35 @@ export const translations = {
             },
             badge: "Web 4.0 = AI + Blockchain + Citizen Control",
             points: {
+                web4_state: {
+                    title: "1. PUBLIC FUNDS ON BLOCKCHAIN & SBT System",
+                    summary: "Every path of public money is public on the blockchain. You decide where your local tax goes using SBT.",
+                    p1: "\"Web 4.0\" is not marketing bullshit. It's the next internet era where <strong>AI and blockchain</strong> collaborate to create systems that cannot be hacked, bribed, or manipulated. We apply this to the state.",
+                    box1: {
+                        title: "🔗 Blockchain Budget – Clear Pocket 2.0",
+                        desc: "Currently, the state budget is a 500-page PDF that no one understands. In our system:",
+                        list: [
+                            "<strong>Every transaction is public:</strong> You log in with your SBT, and see that District XI spent 50 million HUF on a playground. You see the invoice, the contractor, the quotes.",
+                            "<strong>Real-time:</strong> Not published once a year, but updated per second as money moves.",
+                            "<strong>Incorruptible:</strong> Data written to the blockchain cannot be retroactively modified. If someone steals, the evidence stays there forever."
+                        ]
+                    },
+                    box2: {
+                        title: "🗳️ Community Decision Making (DAO-like Voting via SBT)",
+                        desc: "You decide on a portion of your local tax. With smart contracts and your secure SBT (Soulbound Token) digital ID, you can vote safely and anonymously:",
+                        list: ["<strong>No Politicians:</strong> Not the mayor deciding for friends, but the community via the SBT system."]
+                    },
+                    box3: {
+                        title: "🛡️ AI Consumer Protection & Order",
+                        desc: "No more \"fine print\" and scams. The state AI (Watchdog) automatically analyzes corporate contracts and business practices.",
+                        list: [
+                            "<strong>Prevention:</strong> The AI flags if a webshop or provider acts suspiciously, immediately blocking transactions until cleared.",
+                            "<strong>Corporate Responsibility:</strong> Anyone trying to scam Hungarian buyers (be it a bank, insurer, or telecom) gets an automatic, revenue-proportional fine. No loopholes."
+                        ]
+                    }
+                },
                 state_os: {
-                    title: "1. State AI Software (State-OS) – The Death of Corruption",
+                    title: "2. State AI Software (State-OS) – The Death of Corruption",
                     summary: "We develop the world's most advanced, corruption-proof public administration system and lease it to other countries.",
                     p1: "Hungarian public administration is currently expensive, slow, and opaque. We are developing an AI system (<strong>State-OS</strong>) that fully automates and monitors state operations. This is not sci-fi, but the integration of existing technologies (GPT-level LLMs, blockchain, smart contracts).",
                     box1: {
@@ -1205,7 +1232,7 @@ export const translations = {
                     }
                 },
                 waste_plasma: {
-                    title: "2. Waste Import & Plasma Energy – The West Pays, We Get Rich",
+                    title: "3. Waste Import & Plasma Energy – The West Pays, We Get Rich",
                     summary: "Four strategic hubs, 4000°C technology, 4-5 year ROI. We produce not just electricity, but construction materials and heat.",
                     p1: "This is the economic engine of the program. <strong>We will NOT be Europe's landfill!</strong> Our goal is not storage, but energy production. Modeled after the system operating in Japan, we convert incoming waste <strong>immediately</strong> into electricity and fuel. Germany and the West pay us to take it (Tipping Fee) – and we turn it into clean energy and profit.",
                     box1: {
@@ -1244,7 +1271,7 @@ export const translations = {
                     }
                 },
                 e_fuel: {
-                    title: "3. Hungarian Fuel (E-Fuel) – Saving the Petrol Engine",
+                    title: "4. Hungarian Fuel (E-Fuel) – Saving the Petrol Engine",
                     summary: "We produce liquid fuel from electricity. The EU bans petrol? We bypass it. Legally.",
                     p1: "From 2035, the EU bans the production of new petrol and diesel cars. But there is a loophole we turn into a \"main entrance\": the use of <strong>E-Fuel</strong> (synthetic, carbon-neutral fuel) remains permitted. This is called the <strong>\"Ferrari Clause\"</strong>.",
                     box1: {
