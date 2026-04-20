@@ -26,14 +26,28 @@ export default function ConstitutionSection() {
                 centered
             />
             <div className="space-y-4 max-w-4xl mx-auto">
+                {/* Public Funds Accordion */}
+                <DeepDivePoint
+                    icon={Globe}
+                    title={c?.accordions?.public_funds?.title}
+                    summary={c?.accordions?.public_funds?.summary}
+                    accentColor="purple"
+                    isOpen={activeAccordion === 'const-0'}
+                    onToggle={() => toggleAccordion('const-0')}
+                >
+                    <div className="text-slate-600 space-y-4">
+                        <div dangerouslySetInnerHTML={{ __html: c?.accordions?.public_funds?.content }} />
+                    </div>
+                </DeepDivePoint>
+
                 {/* SBT Accordion */}
                 <DeepDivePoint
                     icon={Lock}
                     title={c?.accordions?.sbt?.title}
                     summary={c?.accordions?.sbt?.summary}
                     accentColor="blue"
-                    isOpen={activeAccordion === 'const-0'}
-                    onToggle={() => toggleAccordion('const-0')}
+                    isOpen={activeAccordion === 'const-1'}
+                    onToggle={() => toggleAccordion('const-1')}
                 >
                     <div className="text-slate-600 space-y-4">
                         <div dangerouslySetInnerHTML={{ __html: c?.accordions?.sbt?.content }} />
@@ -83,8 +97,8 @@ export default function ConstitutionSection() {
                     title={c?.accordions?.two_thirds?.title}
                     summary={c?.accordions?.two_thirds?.summary}
                     accentColor="purple"
-                    isOpen={activeAccordion === 'const-1'}
-                    onToggle={() => toggleAccordion('const-1')}
+                    isOpen={activeAccordion === 'const-2'}
+                    onToggle={() => toggleAccordion('const-2')}
                 >
                     <div className="text-slate-600" dangerouslySetInnerHTML={{ __html: c?.accordions?.two_thirds?.content }} />
                 </DeepDivePoint>
@@ -95,8 +109,8 @@ export default function ConstitutionSection() {
                     title={c?.accordions?.rights?.title}
                     summary={c?.accordions?.rights?.summary}
                     accentColor="red"
-                    isOpen={activeAccordion === 'const-2'}
-                    onToggle={() => toggleAccordion('const-2')}
+                    isOpen={activeAccordion === 'const-3'}
+                    onToggle={() => toggleAccordion('const-3')}
                 >
                     <div className="text-slate-600" dangerouslySetInnerHTML={{ __html: c?.accordions?.rights?.content }} />
                 </DeepDivePoint>
@@ -107,8 +121,8 @@ export default function ConstitutionSection() {
                     title={c?.accordions?.crime?.title}
                     summary={c?.accordions?.crime?.summary}
                     accentColor="blue"
-                    isOpen={activeAccordion === 'const-3'}
-                    onToggle={() => toggleAccordion('const-3')}
+                    isOpen={activeAccordion === 'const-4'}
+                    onToggle={() => toggleAccordion('const-4')}
                 >
                     <div className="text-slate-600" dangerouslySetInnerHTML={{ __html: c?.accordions?.crime?.content }} />
                 </DeepDivePoint>
@@ -119,8 +133,8 @@ export default function ConstitutionSection() {
                     title={c?.accordions?.sovereignty?.title}
                     summary={c?.accordions?.sovereignty?.summary}
                     accentColor="green"
-                    isOpen={activeAccordion === 'const-4'}
-                    onToggle={() => toggleAccordion('const-4')}
+                    isOpen={activeAccordion === 'const-5'}
+                    onToggle={() => toggleAccordion('const-5')}
                 >
                     <div className="text-slate-600" dangerouslySetInnerHTML={{ __html: c?.accordions?.sovereignty?.content }} />
                 </DeepDivePoint>
@@ -131,8 +145,8 @@ export default function ConstitutionSection() {
                     title={c?.accordions?.social?.title}
                     summary={c?.accordions?.social?.summary}
                     accentColor="red"
-                    isOpen={activeAccordion === 'const-5'}
-                    onToggle={() => toggleAccordion('const-5')}
+                    isOpen={activeAccordion === 'const-6'}
+                    onToggle={() => toggleAccordion('const-6')}
                 >
                     <div className="mb-4 text-slate-600" dangerouslySetInnerHTML={{ __html: c?.accordions?.social?.content }} />
                     <div className="space-y-4">

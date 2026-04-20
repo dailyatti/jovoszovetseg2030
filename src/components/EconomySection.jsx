@@ -29,71 +29,14 @@ export default function EconomySection() {
             </div>
 
             <div className="space-y-6 max-w-4xl mx-auto">
-                <DeepDivePoint
-                    icon={Globe}
-                    title={t('economy.points.web4_state.title')}
-                    summary={t('economy.points.web4_state.summary')}
-                    accentColor="purple"
-                    isOpen={activeAccordion === 'eco-0'}
-                    onToggle={() => toggleAccordion('eco-0')}
-                >
-                    <div className="space-y-6">
-                        <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('economy.points.web4_state.p1') }} />
-
-                        <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-5 rounded-xl border border-purple-200">
-                            <h5 className="font-bold text-purple-800 mb-3 text-lg">{t('economy.points.web4_state.box1.title')}</h5>
-                            <p className="text-sm text-slate-700 mb-3">
-                                {t('economy.points.web4_state.box1.desc')}
-                            </p>
-                            <ul className="space-y-2 text-sm text-slate-700">
-                                {t('economy.points.web4_state.box1.list').map((item, i) => (
-                                    <li key={i} className="flex items-start gap-2">
-                                        <CheckCircle size={16} className="text-purple-500 mt-0.5 flex-shrink-0" />
-                                        <div dangerouslySetInnerHTML={{ __html: item }} />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        <div className="bg-blue-50 p-5 rounded-xl border border-blue-100">
-                            <h5 className="font-bold text-blue-800 mb-3 text-lg">{t('economy.points.web4_state.box2.title')}</h5>
-                            <p className="text-sm text-slate-700 mb-3">
-                                {t('economy.points.web4_state.box2.desc')}
-                            </p>
-                            <ul className="space-y-2 text-sm text-slate-700">
-                                {t('economy.points.web4_state.box2.list').map((item, i) => (
-                                    <li key={i} className="flex items-start gap-2">
-                                        <Vote size={16} className="text-blue-500 mt-0.5 flex-shrink-0" />
-                                        <div dangerouslySetInnerHTML={{ __html: item }} />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-
-                        <div className="bg-emerald-50 p-5 rounded-xl border border-emerald-100">
-                            <h5 className="font-bold text-emerald-800 mb-3 text-lg flex items-center gap-2"><Shield size={20} /> {t('economy.points.web4_state.box3.title')}</h5>
-                            <p className="text-sm text-slate-700 mb-3">
-                                {t('economy.points.web4_state.box3.desc')}
-                            </p>
-                            <ul className="space-y-2 text-sm text-slate-700">
-                                {t('economy.points.web4_state.box3.list').map((item, i) => (
-                                    <li key={i} className="flex items-start gap-2">
-                                        <CheckCircle size={16} className="text-emerald-500 mt-0.5 flex-shrink-0" />
-                                        <div dangerouslySetInnerHTML={{ __html: item }} />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
-                </DeepDivePoint>
 
                 <DeepDivePoint
                     icon={Cpu}
                     title={t('economy.points.state_os.title')}
                     summary={t('economy.points.state_os.summary')}
                     accentColor="blue"
-                    isOpen={activeAccordion === 'eco-1'}
-                    onToggle={() => toggleAccordion('eco-1')}
+                    isOpen={activeAccordion === 'eco-0'}
+                    onToggle={() => toggleAccordion('eco-0')}
                 >
                     <div className="space-y-6">
                         <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('economy.points.state_os.p1') }} />
@@ -137,8 +80,8 @@ export default function EconomySection() {
                     title={t('economy.points.waste_plasma.title')}
                     summary={t('economy.points.waste_plasma.summary')}
                     accentColor="green"
-                    isOpen={activeAccordion === 'eco-2'}
-                    onToggle={() => toggleAccordion('eco-2')}
+                    isOpen={activeAccordion === 'eco-1'}
+                    onToggle={() => toggleAccordion('eco-1')}
                 >
                     <div className="space-y-6">
                         <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('economy.points.waste_plasma.p1') }} />
@@ -200,8 +143,8 @@ export default function EconomySection() {
                     title={t('economy.points.e_fuel.title')}
                     summary={t('economy.points.e_fuel.summary')}
                     accentColor="yellow"
-                    isOpen={activeAccordion === 'eco-3'}
-                    onToggle={() => toggleAccordion('eco-3')}
+                    isOpen={activeAccordion === 'eco-2'}
+                    onToggle={() => toggleAccordion('eco-2')}
                 >
                     <div className="space-y-6">
                         <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('economy.points.e_fuel.p1') }} />
@@ -242,8 +185,8 @@ export default function EconomySection() {
                     title={t('economy.points.web4_workforce.title')}
                     summary={t('economy.points.web4_workforce.summary')}
                     accentColor="emerald"
-                    isOpen={activeAccordion === 'eco-4'}
-                    onToggle={() => toggleAccordion('eco-4')}
+                    isOpen={activeAccordion === 'eco-3'}
+                    onToggle={() => toggleAccordion('eco-3')}
                 >
                     <div className="space-y-6">
                         <p className="text-slate-600 leading-relaxed">
