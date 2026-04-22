@@ -189,9 +189,7 @@ export default function EconomySection() {
                     onToggle={() => toggleAccordion('eco-3')}
                 >
                     <div className="space-y-6">
-                        <p className="text-slate-600 leading-relaxed">
-                            {t('economy.points.web4_workforce.p1')}
-                        </p>
+                        <p className="text-slate-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('economy.points.web4_workforce.p1') }} />
 
                         <div className="bg-emerald-50 p-5 rounded-xl border border-emerald-100">
                             <h5 className="font-bold text-emerald-800 mb-3 text-lg flex items-center gap-2"><Globe size={20} /> {t('economy.points.web4_workforce.box1.title')}</h5>
