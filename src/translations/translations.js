@@ -51,7 +51,7 @@ export const translations = {
                 title: "WEB 4.0 GAZDASÁG: Munka Alapú Pénztermelés AI Segítségével",
                 subtitle: "A cél egy olyan gazdasági rendszer, ahol a pénz valódi munkából és értékteremtésből származik – nem spekulációból. Az AI és a blokklánc technológia segítségével átláthatóan, hatékonyan és igazságosan működtetjük az államot, ahol minden állampolgár részese a közös sikernek."
             },
-            badge: "Web 4.0 = AI + Blokklánc + Állampolgári Átláthatóság",
+            badge: "Web 4.0 = AI + Blokklánc + Átlátható Állam",
             points: {
                 state_os: {
                     title: "1. Állami AI Szoftver (State-OS) – A Korrupció Halála",
@@ -1156,7 +1156,7 @@ export const translations = {
                 title: "WEB 4.0 ECONOMY: Work-Based Wealth Creation With AI",
                 subtitle: "The goal is an economic system where money comes from real work and value creation – not speculation. With AI and blockchain technology, we run the state transparently, efficiently, and fairly, where every citizen is part of the shared success."
             },
-            badge: "Web 4.0 = AI + Blockchain + Citizen Transparency",
+            badge: "Web 4.0 = AI + Blockchain + Transparent State",
             points: {
                 state_os: {
                     title: "1. State AI Software (State-OS) – The Death of Corruption",
