@@ -48,8 +48,8 @@ export const translations = {
         },
         economy: {
             header: {
-                title: "WEB 4.0 GAZDASÁG: A PÉNZGYÁR",
-                subtitle: "Az adóalapú állam a múlt. Mi egy AI-vezérelt, blokklánc-alapú, profit-termelő vállalat-államot építünk, ahol minden állampolgár részvényes."
+                title: "WEB 4.0 GAZDASÁG: Munka Alapú Pénztermelés AI Segítségével",
+                subtitle: "A cél egy olyan gazdasági rendszer, ahol a pénz valódi munkából és értékteremtésből származik – nem spekulációból. Az AI és a blokklánc technológia segítségével átláthatóan, hatékonyan és igazságosan működtetjük az államot, ahol minden állampolgár részese a közös sikernek."
             },
             badge: "Web 4.0 = AI + Blokklánc + Állampolgári Kontroll",
             points: {
@@ -1153,8 +1153,8 @@ export const translations = {
         },
         economy: {
             header: {
-                title: "WEB 4.0 ECONOMY: THE MONEY FACTORY",
-                subtitle: "The tax-based state is the past. We are building an AI-driven, blockchain-based, profit-generating corporate state where every citizen is a shareholder."
+                title: "WEB 4.0 ECONOMY: Work-Based Wealth Creation With AI",
+                subtitle: "The goal is an economic system where money comes from real work and value creation – not speculation. With AI and blockchain technology, we run the state transparently, efficiently, and fairly, where every citizen is part of the shared success."
             },
             badge: "Web 4.0 = AI + Blockchain + Citizen Control",
             points: {
