@@ -881,7 +881,7 @@ export const translations = {
                     "<strong>Geotermikus Energia:</strong> Magyarország Európa TOP 5 geotermikus országának egyike. A föld alatti hőenergia képes fűteni városokat, üvegházakat és ipari létesítményeket – ingyen, örökre.",
                     "<strong>Ásványkincsek & Ritkaföldfémek:</strong> Teljes geológiai feltárást végzünk. Lítium, mangán és más stratégiai ásványok kutatása – ezek az EV akkumulátorok és a hightech ipar alapanyagai.",
                     "<strong>Termálvíz Vagyon:</strong> 2000+ termálkút Magyarországon – ez nemcsak gyógyturizmus, hanem energiaforrás és mezőgazdasági fűtés is.",
-                    "<strong>Kőolaj & Földgáz Maradékok:</strong> A korábbi MOL-kutatások alapján vannak még kiaknázatlan készletek. Feltárjuk és az állam javára hasznosítjuk."
+                    "<strong>Kőolaj & Földgáz:</strong> A geotermikus kitermelés kulcsszerepet játszik abban, hogy a jövőben legyen saját olajunk és gázunk, és ne függjünk senkitől. Amíg ez meg nem valósul, addig maradunk az olcsó orosz olajnál, de ebben is több kérdésben az emberek véleményét fogjuk kérni az SBT rendszeren keresztül."
                 ]
             },
             resource_cards: [
@@ -1982,7 +1982,7 @@ export const translations = {
                     "<strong>Geothermal Energy:</strong> Hungary is one of Europe's TOP 5 geothermal countries. Underground heat energy can heat cities, greenhouses, and industrial facilities – for free, forever.",
                     "<strong>Minerals & Rare Earth Metals:</strong> We conduct a complete geological survey. Lithium, manganese, and other strategic minerals research – these are the raw materials for EV batteries and the high-tech industry.",
                     "<strong>Thermal Water Assets:</strong> 2,000+ thermal wells in Hungary – not just health tourism, but energy source and agricultural heating too.",
-                    "<strong>Oil & Gas Remnants:</strong> Based on previous MOL explorations, untapped reserves remain. We explore and utilize them for the state's benefit."
+                    "<strong>Oil & Gas:</strong> Geothermal extraction plays a key role in ensuring we have our own oil and gas in the future, so we don't depend on anyone. Until this happens, we will stick with cheap Russian oil, but even in these matters, we will ask for the people's opinion through the SBT system."
                 ]
             },
             resource_cards: [
