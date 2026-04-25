@@ -49,19 +49,19 @@ export default function DesignerManifesto() {
                             <div className="grid md:grid-cols-2 gap-8 my-12">
                                 <div className="bg-slate-900/80 p-6 rounded-2xl border border-white/5">
                                     <h4 className="text-blue-400 font-bold mb-4">{articles[1]?.boxes?.[0]?.title}</h4>
-                                    <p className="text-sm text-slate-400 leading-relaxed">
+                                    <p className="text-sm text-slate-200 leading-relaxed">
                                         {articles[1]?.boxes?.[0]?.text}
                                     </p>
                                 </div>
                                 <div className="bg-slate-900/80 p-6 rounded-2xl border border-white/5">
                                     <h4 className="text-yellow-400 font-bold mb-4">{articles[1]?.boxes?.[1]?.title}</h4>
-                                    <p className="text-sm text-slate-400 leading-relaxed">
+                                    <p className="text-sm text-slate-200 leading-relaxed">
                                         {articles[1]?.boxes?.[1]?.text}
                                     </p>
                                 </div>
                             </div>
 
-                            <p className="text-lg text-slate-400 text-center italic">
+                            <p className="text-lg text-slate-200 text-center italic">
                                 {articles[1]?.quote}
                             </p>
                         </article>
@@ -124,7 +124,7 @@ export default function DesignerManifesto() {
                         {/* 6. VISION / OUTRO */}
                         <article className="pt-24 border-t border-slate-800 text-center">
                             <h3 className="text-4xl md:text-6xl font-black text-white mb-12 uppercase tracking-tighter" dangerouslySetInnerHTML={{ __html: m?.outro?.title }} />
-                            <div className="space-y-8 text-xl text-slate-400 leading-relaxed max-w-3xl mx-auto">
+                            <div className="space-y-8 text-xl text-slate-200 leading-relaxed max-w-3xl mx-auto">
                                 <p dangerouslySetInnerHTML={{ __html: m?.outro?.text }} />
                                 <div className="bg-emerald-500/10 border border-emerald-500/20 p-8 rounded-3xl mt-12">
                                     <p className="m-0 font-bold text-emerald-400 text-2xl">

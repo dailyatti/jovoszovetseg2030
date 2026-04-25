@@ -36,7 +36,7 @@ export default function MigrationPolicy() {
                 <div className="bg-slate-900 rounded-3xl p-8 border border-slate-800 relative overflow-hidden text-center sticky top-24 z-10 shadow-2xl">
                     <div className="relative z-10">
                         <h3 className="text-2xl md:text-3xl font-bold text-white mb-4 font-display" dangerouslySetInnerHTML={{ __html: t('migration.banner.title') }} />
-                        <p className="text-slate-400 max-w-2xl mx-auto">
+                        <p className="text-slate-200 max-w-2xl mx-auto">
                             {t('migration.banner.text')}
                         </p>
                     </div>
@@ -69,7 +69,7 @@ export default function MigrationPolicy() {
                 })}
             </div>
 
-            <div className="mt-12 text-center text-sm text-slate-400 italic">
+            <div className="mt-12 text-center text-sm text-slate-200 italic">
                 <p>{t('migration.disclaimer')}</p>
             </div>
 

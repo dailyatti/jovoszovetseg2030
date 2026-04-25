@@ -37,7 +37,7 @@ function ElderAccordion({ icon: Icon, title, summary, children, accentColor, isO
                         <h3 className="font-display text-lg md:text-xl font-bold text-white leading-tight">
                             {title}
                         </h3>
-                        <p className="mt-1.5 text-slate-400 text-sm leading-relaxed">
+                        <p className="mt-1.5 text-slate-300 text-sm leading-relaxed">
                             {summary}
                         </p>
                     </div>
@@ -45,7 +45,7 @@ function ElderAccordion({ icon: Icon, title, summary, children, accentColor, isO
                         "flex-shrink-0 p-2 rounded-full transition-all duration-300",
                         isOpen ? "bg-white/10 rotate-180" : "bg-transparent"
                     )}>
-                        <ChevronDown size={20} className="text-slate-400" />
+                        <ChevronDown size={20} className="text-slate-300" />
                     </div>
                 </div>
             </button>
@@ -111,7 +111,7 @@ export default function ElderCareSection() {
                             <div key={i} className="bg-white/[0.06] backdrop-blur-sm border border-white/10 p-4 rounded-2xl text-center hover:bg-white/[0.1] hover:scale-105 transition-all duration-300">
                                 <div className="text-2xl mb-1">{stat.icon}</div>
                                 <div className="text-xl md:text-2xl font-display font-black text-rose-400">{stat.value}</div>
-                                <div className="text-xs text-slate-400 mt-1">{stat.label}</div>
+                                <div className="text-xs text-slate-300 mt-1">{stat.label}</div>
                             </div>
                         ))}
                     </div>
@@ -138,7 +138,7 @@ export default function ElderCareSection() {
                                                 <span className="bg-gradient-to-br from-rose-500 to-pink-600 text-white rounded-full w-7 h-7 flex items-center justify-center font-bold flex-shrink-0 text-sm shadow-lg shadow-rose-500/30">{i + 1}</span>
                                                 <div>
                                                     <div className="font-bold text-rose-200 text-sm">{phase.title}</div>
-                                                    <div className="text-sm text-slate-400" dangerouslySetInnerHTML={{ __html: phase.desc }} />
+                                                    <div className="text-sm text-slate-300" dangerouslySetInnerHTML={{ __html: phase.desc }} />
                                                 </div>
                                             </div>
                                         ))}
@@ -147,7 +147,7 @@ export default function ElderCareSection() {
 
                                 <div className="bg-blue-500/10 p-5 rounded-xl border border-blue-500/20">
                                     <h5 className="font-bold text-blue-300 mb-3 text-lg">{t('eldercare.points.tb_abolish.box2.title')}</h5>
-                                    <p className="text-sm text-slate-400" dangerouslySetInnerHTML={{ __html: t('eldercare.points.tb_abolish.box2.desc') }} />
+                                    <p className="text-sm text-slate-300" dangerouslySetInnerHTML={{ __html: t('eldercare.points.tb_abolish.box2.desc') }} />
                                 </div>
                             </div>
                         </ElderAccordion>
@@ -177,7 +177,7 @@ export default function ElderCareSection() {
                                             <div key={i} className={`bg-gradient-to-br ${s.bg} p-4 rounded-xl border ${s.border} hover:scale-[1.02] transition-all duration-300 shadow-lg ${s.glow}`}>
                                                 <div className="text-2xl mb-2">{s.icon}</div>
                                                 <h5 className={`font-bold ${s.title} mb-2`}>{card.title}</h5>
-                                                <p className="text-sm text-slate-400" dangerouslySetInnerHTML={{ __html: card.desc }} />
+                                                <p className="text-sm text-slate-300" dangerouslySetInnerHTML={{ __html: card.desc }} />
                                             </div>
                                         );
                                     })}
@@ -199,7 +199,7 @@ export default function ElderCareSection() {
 
                                 <div className="bg-gradient-to-r from-amber-500/10 to-orange-500/10 p-5 rounded-xl border border-amber-500/20">
                                     <h5 className="font-bold text-amber-300 mb-3 text-lg">{t('eldercare.points.quality.box1.title')}</h5>
-                                    <ul className="space-y-3 text-sm text-slate-400">
+                                    <ul className="space-y-3 text-sm text-slate-300">
                                         {t('eldercare.points.quality.box1.list').map((item, i) => (
                                             <li key={i} className="flex items-start gap-2.5">
                                                 <CheckCircle size={16} className="text-amber-400 mt-0.5 flex-shrink-0" />

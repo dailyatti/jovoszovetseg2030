@@ -36,9 +36,9 @@ export default function DefenseSection() {
                                         <span className="text-2xl">{config.icon}</span>
                                     </div>
                                     <h3 className="font-display text-xl font-bold mb-2">{corps.title}</h3>
-                                    <p className="text-sm text-slate-400 mb-4 font-mono uppercase tracking-widest">{corps.label}</p>
+                                    <p className="text-sm text-slate-200 mb-4 font-mono uppercase tracking-widest">{corps.label}</p>
                                     <p className="text-sm text-slate-300 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: corps.desc }} />
-                                    <ul className="text-sm text-slate-400 space-y-3">
+                                    <ul className="text-sm text-slate-200 space-y-3">
                                         {corps.list && corps.list.map((item, i) => (
                                             <li key={i} className="flex gap-2">
                                                 <CheckCircle size={14} className={`${config.check} mt-1 flex-shrink-0`} />
@@ -57,14 +57,14 @@ export default function DefenseSection() {
                             <h4 className="font-display font-bold text-lg mb-4 text-white flex items-center gap-2">
                                 <Zap className="text-yellow-400" /> {t('defense.features.0.title')}
                             </h4>
-                            <p className="text-sm text-slate-400 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('defense.features.0.desc') }} />
+                            <p className="text-sm text-slate-200 leading-relaxed" dangerouslySetInnerHTML={{ __html: t('defense.features.0.desc') }} />
                         </div>
                         <div>
                             <h4 className="font-display font-bold text-lg mb-4 text-white flex items-center gap-2">
                                 <CheckCircle className="text-blue-400" /> {t('defense.features.1.title')}
                             </h4>
-                            <p className="text-sm text-slate-400 leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: t('defense.features.1.desc') }} />
-                            <ul className="text-sm text-slate-400 space-y-2">
+                            <p className="text-sm text-slate-200 leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: t('defense.features.1.desc') }} />
+                            <ul className="text-sm text-slate-200 space-y-2">
                                 {t('defense.features.1.list') && t('defense.features.1.list').map((item, i) => (
                                     <li key={i} className="flex items-start gap-2">
                                         <span>{feature2Emojis[i]}</span>

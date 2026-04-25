@@ -43,7 +43,7 @@ export default function AgricultureSection() {
                         {t('agriculture.stats').map((stat, i) => (
                             <div key={i} className="glass-dark p-4 rounded-2xl text-center">
                                 <div className="text-2xl md:text-3xl font-display font-black text-emerald-400">{stat.value}</div>
-                                <div className="text-xs md:text-sm text-slate-400 mt-1">{stat.label}</div>
+                                <div className="text-xs md:text-sm text-slate-200 mt-1">{stat.label}</div>
                             </div>
                         ))}
                     </div>
@@ -57,7 +57,7 @@ export default function AgricultureSection() {
                             </div>
                             <h3 className="font-display text-xl font-bold mb-2">{t('agriculture.precision.title')}</h3>
                             <p className="text-sm text-slate-300 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: t('agriculture.precision.desc') }} />
-                            <ul className="text-sm text-slate-400 space-y-3">
+                            <ul className="text-sm text-slate-200 space-y-3">
                                 {t('agriculture.precision.list').map((item, i) => (
                                     <li key={i} className="flex gap-2">
                                         <CheckCircle size={14} className="text-emerald-500 mt-1 flex-shrink-0" />
@@ -74,7 +74,7 @@ export default function AgricultureSection() {
                             </div>
                             <h3 className="font-display text-xl font-bold mb-2">{t('agriculture.resources.title')}</h3>
                             <p className="text-sm text-slate-300 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: t('agriculture.resources.desc') }} />
-                            <ul className="text-sm text-slate-400 space-y-3">
+                            <ul className="text-sm text-slate-200 space-y-3">
                                 {t('agriculture.resources.list').map((item, i) => (
                                     <li key={i} className="flex gap-2">
                                         <CheckCircle size={14} className="text-yellow-500 mt-1 flex-shrink-0" />
@@ -93,7 +93,7 @@ export default function AgricultureSection() {
                                 <div key={i} className="glass-dark p-4 rounded-2xl text-center hover:scale-105 transition-transform">
                                     <div className="text-3xl mb-2">{icons[i]}</div>
                                     <div className="font-bold text-sm text-white">{card.title}</div>
-                                    <div className="text-xs text-slate-400 mt-1">{card.desc}</div>
+                                    <div className="text-xs text-slate-300 mt-1">{card.desc}</div>
                                 </div>
                             );
                         })}
@@ -105,8 +105,8 @@ export default function AgricultureSection() {
                             <h4 className="font-display font-bold text-lg mb-4 text-white flex items-center gap-2">
                                 <Leaf className="text-emerald-400" /> {t('agriculture.farmer_protection.title')}
                             </h4>
-                            <p className="text-sm text-slate-400 leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: t('agriculture.farmer_protection.desc') }} />
-                            <ul className="text-sm text-slate-400 space-y-2">
+                            <p className="text-sm text-slate-200 leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: t('agriculture.farmer_protection.desc') }} />
+                            <ul className="text-sm text-slate-200 space-y-2">
                                 {t('agriculture.farmer_protection.list').map((item, i) => (
                                     <li key={i} className="flex items-start gap-2">
                                         <CheckCircle size={14} className="text-emerald-400 mt-1 flex-shrink-0" />
@@ -119,8 +119,8 @@ export default function AgricultureSection() {
                             <h4 className="font-display font-bold text-lg mb-4 text-white flex items-center gap-2">
                                 <Mountain className="text-yellow-400" /> {t('agriculture.exploration.title')}
                             </h4>
-                            <p className="text-sm text-slate-400 leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: t('agriculture.exploration.desc') }} />
-                            <ul className="text-sm text-slate-400 space-y-2">
+                            <p className="text-sm text-slate-200 leading-relaxed mb-3" dangerouslySetInnerHTML={{ __html: t('agriculture.exploration.desc') }} />
+                            <ul className="text-sm text-slate-200 space-y-2">
                                 {t('agriculture.exploration.list').map((item, i) => (
                                     <li key={i} className="flex items-start gap-2">
                                         <CheckCircle size={14} className="text-yellow-400 mt-1 flex-shrink-0" />
