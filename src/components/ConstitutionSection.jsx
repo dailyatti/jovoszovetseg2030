@@ -103,6 +103,38 @@ export default function ConstitutionSection() {
                     <div className="text-slate-600" dangerouslySetInnerHTML={{ __html: c?.accordions?.two_thirds?.content }} />
                 </DeepDivePoint>
 
+                {/* Promise Tracking Accordion */}
+                <DeepDivePoint
+                    icon={CheckCircle}
+                    title={c?.accordions?.promise_tracking?.title}
+                    summary={c?.accordions?.promise_tracking?.summary}
+                    accentColor="blue"
+                    isOpen={activeAccordion === 'const-2b'}
+                    onToggle={() => toggleAccordion('const-2b')}
+                >
+                    <div className="text-slate-600 space-y-4">
+                        <div dangerouslySetInnerHTML={{ __html: c?.accordions?.promise_tracking?.content }} />
+
+                        {/* Constitutional Promise Tracking Box */}
+                        {c?.accordions?.promise_tracking?.constitutional && (
+                            <div className="mt-6 bg-gradient-to-r from-amber-50 to-orange-50 p-5 rounded-xl border border-amber-200">
+                                <h5 className="font-bold text-amber-900 mb-2 flex items-center gap-2">
+                                    <Scale size={20} className="text-amber-600" />
+                                    {c.accordions.promise_tracking.constitutional.title}
+                                </h5>
+                                <ul className="space-y-3 text-sm text-slate-700">
+                                    {c.accordions.promise_tracking.constitutional.items.map((item, idx) => (
+                                        <li key={idx} className="flex items-start gap-2">
+                                            <CheckCircle size={16} className="text-amber-500 mt-1 flex-shrink-0" />
+                                            <div dangerouslySetInnerHTML={{ __html: item }} />
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+                    </div>
+                </DeepDivePoint>
+
                 {/* Rights Accordion */}
                 <DeepDivePoint
                     icon={Scale}
